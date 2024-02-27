@@ -1,0 +1,23 @@
+technologies = {
+	kivotos_computation_system = {
+		start_year = 1941
+				
+		research_cost = 1.5
+
+		allow = {
+			always = no
+		}
+
+		research_speed_factor = 0.425
+		
+		categories = {
+	        armor	
+			cat_wunderwaffen_armor_ratte
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+		}
+	}
+}

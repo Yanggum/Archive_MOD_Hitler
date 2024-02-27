@@ -2,7 +2,7 @@ state=
 {
 	id=124
 	name="STATE_124"
-	manpower = 956988
+	manpower = 1656988
 	
 	state_category = megalopolis
 	
@@ -17,8 +17,8 @@ state=
 			}
 			air_base = 10
 			industrial_complex = 6
-			dockyard = 3
-			arms_factory = 3
+			dockyard = 4
+			arms_factory = 4
 		}
 		victory_points = {
 			408 1

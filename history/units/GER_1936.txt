@@ -9,6 +9,30 @@ division_template = {
 		infantry = { x = 0 y = 2 }
         infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "New Order SS-Division"
+
+	division_names_group = GER_SS_01
+
+	regiments = {
+		uber_Infantry = { x = 0 y = 0 }
+		uber_Infantry = { x = 0 y = 1 }
+		uber_Infantry = { x = 0 y = 2 }
+        uber_Infantry = { x = 1 y = 0 }
+		uber_Infantry = { x = 1 y = 1 }
+		uber_Infantry = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		anti_air = { x = 0 y = 2 }
 	}
 }
 
@@ -19,7 +43,7 @@ units = {
 			name_order = 1
 		}
 		location = 6258
-		division_template = "SS-Division"
+		division_template = "New Order SS-Division"
 		start_experience_factor = 0.75
 		start_equipment_factor = 1.0
         start_manpower_factor = 1.0
@@ -41,7 +65,7 @@ units = {
 			name_order = 3
 		}
 		location = 408
-		division_template = "SS-Division"
+		division_template = "New Order SS-Division"
 		start_experience_factor = 0.75
 		start_equipment_factor = 1.0
         start_manpower_factor = 1.0

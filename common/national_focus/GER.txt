@@ -1223,6 +1223,7 @@ focus_tree = {
 			 	transfer_state = 58
 				transfer_state = 909
 			}
+			set_country_flag = GER_communication_with_the_mainland
 		}
 	}
 	focus = {
@@ -1234,15 +1235,19 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = GER_communication_with_the_mainland
-		available = {
-			has_country_flag = GER_win_the_war_GEH_flag
-		}
+
 		cost = 0
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 		completion_reward = {
-			remove_ideas = GER_didntknew_without_navy
+			load_focus_tree = {
+				tree = german_focus
+			} 			
+			declare_war_on = {
+				target = GEM
+				type = annex_everything
+			}
 		}
 	}
 	focus = {

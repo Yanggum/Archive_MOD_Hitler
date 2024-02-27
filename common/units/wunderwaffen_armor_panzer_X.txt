@@ -7,6 +7,8 @@ sub_units = {
 		ai_priority = 2520
 		active = yes
 
+		can_be_parachuted = yes
+		
 		type = {
 			armor
 		}

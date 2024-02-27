@@ -1,5 +1,12 @@
 ﻿l_english: 
  
+ uber_infantry_equipment_0:0 "Uber Armor"
+ uber_infantry_equipment:0 "Uber Armor"
+ uber_infantry_equipment_desc:0 ""
+ uber_infantry:0 "Uber Infantry"
+ kivotos_computation_system:0 "키보토스 연산 시스템"
+ kivotos_computation_system_desc:0 "키보토스 연산 시스템은 독일의 전쟁 능력을 크게 향상시킬 것입니다."
+ 
  #wunderwaffen#
  
  wunderwaffen_folder:0 "Wunderwaffen"
@@ -153,6 +160,12 @@
  wunderwaffen_armor_ratte_equipment:0 "P-1000 Ratte"
  
  #
- 
+ wunderwaffen_k12v:0 "K-12V"
+ wunderwaffen_k12n:0 "K-12N"
+ wunderwaffen_k12v_equipment_1:0 "K-12V"
+ wunderwaffen_k12v_equipment_1_desc:0 "K-12V"
+ wunderwaffen_k12n_equipment_1:0 "K-12N"
+ wunderwaffen_k12n_equipment_1_desc:0 "K-12N"
+
 
 #####---------------------------------------------------------------------> End

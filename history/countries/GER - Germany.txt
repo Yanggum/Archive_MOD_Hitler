@@ -30,6 +30,13 @@ if = {
 		}
 	}
 }
+
+set_technology = {
+	uber_infantry_tech = 1
+	kivotos_computation_system = 1
+}
+
+
 # FINNISH ARMY NS
 set_variable = { GER_german_nationalism_experience_gain_army_factor = 0.05 }
 set_variable = { GER_german_nationalism_mobilization_speed = 0.05 }
@@ -74,6 +81,8 @@ recruit_character = GER_kurt_student
 
 
 add_ideas = {
+	sour_loser
+	general_staff
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
@@ -240,6 +249,111 @@ if = {
 	limit = {
 		has_dlc = "No Step Back"
 	}
+
+	create_equipment_variant = {
+		type = wunderwaffen_armor_monster_equipment_1
+		name = "P-1500 Monster"
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_close_support_gun
+			turret_type_slot = tank_heavy_three_man_tank_turret
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			special_type_slot_1 = tank_radio_1
+			special_type_slot_2 = secondary_turret_hmg
+			special_type_slot_3 = secondary_turret_hmg
+			special_type_slot_4 = secondary_turret_hmg
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 6
+			tank_nsb_armor_upgrade = 6
+		}
+		icon = "GFX_wunderwaffen_monster_medium"
+	}
+
+	create_equipment_variant = {
+		type = wunderwaffen_armor_lowe_equipment_1
+		name = "Panzer VII Lowe"
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_close_support_gun
+			turret_type_slot = tank_heavy_three_man_tank_turret
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			special_type_slot_1 = tank_radio_1
+			special_type_slot_2 = secondary_turret_hmg
+			special_type_slot_3 = secondary_turret_hmg
+			special_type_slot_4 = secondary_turret_hmg
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 6
+			tank_nsb_armor_upgrade = 6
+		}
+		icon = "GFX_wunderwaffen_lowe_medium"
+	}
+
+	create_equipment_variant = {
+		type = wunderwaffen_armor_panzer_IX_equipment_1
+		name = "Panzer IX"
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_close_support_gun
+			turret_type_slot = tank_heavy_three_man_tank_turret
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			special_type_slot_1 = tank_radio_1
+			special_type_slot_2 = secondary_turret_hmg
+			special_type_slot_3 = secondary_turret_hmg
+			special_type_slot_4 = secondary_turret_hmg
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 6
+			tank_nsb_armor_upgrade = 6
+		}
+		icon = "GFX_wunderwaffen_panzer_IX_medium"
+	}
+
+	create_equipment_variant = {
+		type = wunderwaffen_armor_panzer_X_equipment_1
+		name = "Panzer X"
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_close_support_gun
+			turret_type_slot = tank_heavy_three_man_tank_turret
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			special_type_slot_1 = tank_radio_1
+			special_type_slot_2 = secondary_turret_hmg
+			special_type_slot_3 = secondary_turret_hmg
+			special_type_slot_4 = secondary_turret_hmg
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 6
+			tank_nsb_armor_upgrade = 6
+		}
+		icon = "GFX_wunderwaffen_panzer_X_medium"
+	}
+
+	create_equipment_variant = {
+		type = uber_infantry_equipment_0
+		name = "Uber Armor"
+		parent_version = 0
+		modules = {
+			turret_type_slot = tank_small_cannon
+			main_armament_slot = tank_small_cannon
+			armor_type_slot = tank_riveted_armor
+			special_type_slot_1 = tank_radio_1
+		}
+		upgrades = {
+			tank_nsb_armor_upgrade = 6
+		}
+		icon = "GFX_GER_uber_infantry_equipment_medium"
+	}
+
 	create_equipment_variant = {
 		name = "Leichttraktor"
 		type = light_tank_chassis_0
@@ -386,6 +500,43 @@ if = {
 			rear_1_custom_slot = ship_depth_charge_1
 		}
 	}
+
+	create_equipment_variant = {
+		name = "Rocket U-Boot Class"
+		type = wunderwaffen_rocket_uboat
+		name_group = GER_SS_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = empty
+		}
+	}
+
+	create_equipment_variant = {
+		name = "U-Boot XXIII Class"
+		type = wunderwaffen_uboat_xxiii
+		name_group = GER_SS_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = empty
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Rocket U-Boot v2 Class"
+		type = wunderwaffen_rocket_uboat2
+		name_group = GER_SS_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = empty
+		}
+	}
+
 	create_equipment_variant = {
 		name = "Type II Class"
 		type = ship_hull_submarine_1
@@ -570,6 +721,131 @@ if = {
 if = {
 	limit = {
 		has_dlc = "By Blood Alone"
+	}
+
+	create_equipment_variant = {
+		name = "He 176"
+		type = wunderwaffen_heinkel_he176_equipment
+		design_team = mio:GER_messerschmitt_organization
+		modules = {
+			fixed_main_weapon_slot = light_mg_4x
+			engine_type_slot = engine_2_1x
+			special_type_slot_1 = empty
+		}
+		icon = "GFX_wunderwaffen_heinkel_he176_medium"
+	}
+
+	create_equipment_variant = {
+		name = "He 280"
+		type = wunderwaffen_heinkel_he280_equipment
+		design_team = mio:GER_messerschmitt_organization
+		modules = {
+			fixed_main_weapon_slot = light_mg_4x
+			engine_type_slot = engine_2_1x
+			special_type_slot_1 = empty
+		}
+		icon = "GFX_wunderwaffen_heinkel_he280_medium"
+	}
+
+	create_equipment_variant = {
+		name = "Me 163 Komet"
+		type = wunderwaffen_me163_komet_equipment
+		design_team = mio:GER_messerschmitt_organization
+		modules = {
+			fixed_main_weapon_slot = light_mg_4x
+			engine_type_slot = engine_2_1x
+			special_type_slot_1 = empty
+		}
+		icon = "GFX_wunderwaffen_me163_komet_medium"
+	}
+
+	create_equipment_variant = {
+		name = "Fa 269"
+		type = wunderwaffen_focke_achgelis_fa269_equipment
+		design_team = mio:GER_messerschmitt_organization
+		modules = {
+			fixed_main_weapon_slot = light_mg_4x
+			engine_type_slot = engine_2_1x
+			special_type_slot_1 = empty
+		}
+		icon = "GFX_wunderwaffen_focke_achgelis_fa269_medium"
+	}
+
+	create_equipment_variant = {
+		name = "He 162"
+		type = wunderwaffen_heinkel_he162_equipment
+		design_team = mio:GER_messerschmitt_organization
+		modules = {
+			fixed_main_weapon_slot = light_mg_4x
+			engine_type_slot = engine_2_1x
+			special_type_slot_1 = empty
+		}
+		icon = "GFX_wunderwaffen_heinkel_he162_medium"
+	}
+
+	create_equipment_variant = {
+		name = "Me 329"
+		type = me_329_equipment
+		design_team = mio:GER_junkers_organization
+		modules = {
+			fixed_main_weapon_slot = bomb_locks
+			engine_type_slot = engine_2_1x
+			special_type_slot_1 = lmg_defense_turret
+			special_type_slot_2 = dive_brakes_small
+		}
+		icon = "GFX_me_329_medium"
+	}
+
+	create_equipment_variant = {
+		name = "Do 335"
+		type = do_335_equipment
+		design_team = mio:GER_junkers_organization
+		modules = {
+			fixed_main_weapon_slot = bomb_locks
+			engine_type_slot = engine_2_1x
+			special_type_slot_1 = lmg_defense_turret
+			special_type_slot_2 = dive_brakes_small
+		}
+		icon = "GFX_do_335_medium"
+	}
+
+	create_equipment_variant = {
+		name = "Ho 229"
+		type = ho_229_equipment
+		design_team = mio:GER_junkers_organization
+		modules = {
+			fixed_main_weapon_slot = bomb_locks
+			engine_type_slot = engine_2_1x
+			special_type_slot_1 = lmg_defense_turret
+			special_type_slot_2 = dive_brakes_small
+		}
+		icon = "GFX_ho_229_medium"
+	}
+
+	create_equipment_variant = {
+		name = "Hs 132"
+		type = hs_132_equipment
+		design_team = mio:GER_junkers_organization
+		modules = {
+			fixed_main_weapon_slot = bomb_locks
+			engine_type_slot = engine_2_1x
+			special_type_slot_1 = lmg_defense_turret
+			special_type_slot_2 = dive_brakes_small
+		}
+		icon = "GFX_hs_132_medium"
+	}
+
+	create_equipment_variant = {
+		name = "DFS 194"
+		type = dfs_194_equipment
+		design_team = mio:GER_junkers_organization
+		modules = {
+			fixed_main_weapon_slot = bomb_locks
+			engine_type_slot = engine_2_1x
+			special_type_slot_1 = lmg_defense_turret
+			special_type_slot_2 = dive_brakes_small
+		}
+		icon = "GFX_dfs_194_medium"
 	}
 
 	create_equipment_variant = {

@@ -38,7 +38,7 @@ spriteTypes = {
 		textureFile = "gfx/interface/technologies/panzerx.dds"
 	}
 	
-#planes#	
+#bombers#	
 	
 	SpriteType = {
 		name = "GFX_wunderwaffen_silbervogel_1_medium"

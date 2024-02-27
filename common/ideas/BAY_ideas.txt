@@ -1,6 +1,6 @@
 ideas = {	
 	country = {
-		GEN_well_planned = { #수복 계획
+		GER_well_planned = { #수복 계획
 			picture = CZE_planning_bonus
 			modifier = {
 				max_planning_factor = 0.2
@@ -17,7 +17,7 @@ ideas = {
 				}
 			}
 		}
-		GEN_send_volunteers_idea = { #독일 지원
+		GER_send_volunteers_idea = { #독일 지원
 			picture = german_advisors
 			allowed = {
 				always = no
@@ -57,7 +57,7 @@ ideas = {
 			}
 		}
 		
-		GEN_run_sungman = { #전쟁해군 망명
+		GER_run_sungman = { #전쟁해군 망명
 			picture = generic_coastal_navy
 			allowed = {
 				always = no
@@ -78,7 +78,7 @@ ideas = {
 				navy_screen_attack_factor = 0.2
 			}
 		}
-		GEN_didntknew_without_navy = { #해군 외의 무지
+		GER_didntknew_without_navy = { #해군 외의 무지
 			picture = escort_effort_focus
 			allowed = {
 				always = no
@@ -97,8 +97,8 @@ ideas = {
 				army_defence_factor = -0.35
 			}
 		}
-		GEN_swedish_hyupryuk = { #스웨덴 협력
-			picture = GEN_sweden_independent_cooperation
+		GER_swedish_hyupryuk = { #스웨덴 협력
+			picture = GER_sweden_independent_cooperation
 			allowed = {
 				always = no
 			}

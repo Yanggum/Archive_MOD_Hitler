@@ -7,7 +7,7 @@ equipments = {
 		priority = 10
 		module_slots = inherit
 
-		air_range = 800
+		air_range = 2400
 		maximum_speed = 750
 		air_agility = 70
 		air_attack = 32
@@ -34,7 +34,7 @@ equipments = {
 		priority = 10
 		module_slots = inherit
 
-		air_range = 900
+		air_range = 2700
 		maximum_speed = 700
 		air_agility = 68
 		air_attack = 34
@@ -58,7 +58,7 @@ equipments = {
 		priority = 10
 		module_slots = inherit
 
-		air_range = 600
+		air_range = 1800
 		maximum_speed = 955
 		air_agility = 72
 		air_attack = 42
@@ -82,7 +82,7 @@ equipments = {
 		priority = 10
 		module_slots = inherit
 
-		air_range = 550
+		air_range = 1550
 		maximum_speed = 970
 		air_agility = 64
 		air_attack = 30
@@ -107,7 +107,7 @@ equipments = {
 		priority = 10
 		module_slots = inherit
 
-		air_range = 975
+		air_range = 2775
 		maximum_speed = 900
 		air_agility = 76
 		air_attack = 36

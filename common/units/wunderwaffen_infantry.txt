@@ -6,6 +6,8 @@ sub_units = {
 	uber_infantry = {
 		sprite = uber_infantry
 		map_icon_category = infantry
+
+		can_be_parachuted = yes
 		
 		priority = 600
 		ai_priority = 200

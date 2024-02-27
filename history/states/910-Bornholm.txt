@@ -2,7 +2,7 @@ state = {
 	id = 910
 	name="STATE_910"
 	state_category = megalopolis
-	manpower = 45819
+	manpower = 458190
 
 	history = {
 		owner = GER
@@ -10,7 +10,7 @@ state = {
 		add_core_of = DEN
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 1
+			industrial_complex = 3
 		6361 = {
 				naval_base = 1
 			}

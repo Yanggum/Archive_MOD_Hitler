@@ -29,10 +29,6 @@ wunderwaffen_heinkel_he176 = {
 		
 	}
 	
-	
-	
-	
-	
 	wunderwaffen_heinkel_he280 = {
 
 		enable_equipments = {
