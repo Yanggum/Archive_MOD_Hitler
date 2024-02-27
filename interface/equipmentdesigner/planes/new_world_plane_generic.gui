@@ -1,0 +1,186 @@
+guiTypes = {
+
+
+	containerWindowType = {
+		name = "equipment_designer_wunderwaffen_heinkel_he176_equipment"
+		position = { x=0 y=0 }
+		size = { width=508 height=248 }
+
+		iconType = {
+			name = "equipment_image_overlay"
+			spriteType = "GFX_TC_small_plane_airframe_0"
+			position = { x=0 y=0 }
+		}
+	}
+
+	containerWindowType = {
+		name = "equipment_designer_wunderwaffen_heinkel_he280_equipment"
+		position = { x=0 y=0 }
+		size = { width=508 height=248 }
+
+		iconType = {
+			name = "equipment_image_overlay"
+			spriteType = "GFX_TC_small_plane_airframe_0"
+			position = { x=0 y=0 }
+		}
+	}
+
+	containerWindowType = {
+		name = "equipment_designer_wunderwaffen_me163_komet_equipment"
+		position = { x=0 y=0 }
+		size = { width=508 height=248 }
+
+		iconType = {
+			name = "equipment_image_overlay"
+			spriteType = "GFX_TC_small_plane_airframe_0"
+			position = { x=0 y=0 }
+		}
+	}
+
+	containerWindowType = {
+		name = "equipment_designer_wunderwaffen_focke_achgelis_fa269_equipment"
+		position = { x=0 y=0 }
+		size = { width=508 height=248 }
+
+		iconType = {
+			name = "equipment_image_overlay"
+			spriteType = "GFX_TC_small_plane_airframe_0"
+			position = { x=0 y=0 }
+		}
+	}
+
+	containerWindowType = {
+		name = "equipment_designer_wunderwaffen_heinkel_he162_equipment"
+		position = { x=0 y=0 }
+		size = { width=508 height=248 }
+
+		iconType = {
+			name = "equipment_image_overlay"
+			spriteType = "GFX_TC_small_plane_airframe_0"
+			position = { x=0 y=0 }
+		}
+	}
+
+	containerWindowType = {
+		name = "equipment_designer_dfs_194_equipment"
+		position = { x=0 y=0 }
+		size = { width=508 height=248 }
+
+		iconType = {
+			name = "equipment_image_overlay"
+			spriteType = "GFX_TC_small_plane_airframe_0"
+			position = { x=0 y=0 }
+		}
+	}
+
+	containerWindowType = {
+		name = "equipment_designer_hs_132_equipment"
+		position = { x=0 y=0 }
+		size = { width=508 height=248 }
+
+		iconType = {
+			name = "equipment_image_overlay"
+			spriteType = "GFX_TC_small_plane_airframe_0"
+			position = { x=0 y=0 }
+		}
+	}
+
+	containerWindowType = {
+		name = "equipment_designer_ho_229_equipment"
+		position = { x=0 y=0 }
+		size = { width=508 height=248 }
+
+		iconType = {
+			name = "equipment_image_overlay"
+			spriteType = "GFX_TC_small_plane_airframe_0"
+			position = { x=0 y=0 }
+		}
+	}
+
+	containerWindowType = {
+		name = "equipment_designer_do_335_equipment"
+		position = { x=0 y=0 }
+		size = { width=508 height=248 }
+
+		iconType = {
+			name = "equipment_image_overlay"
+			spriteType = "GFX_TC_small_plane_airframe_0"
+			position = { x=0 y=0 }
+		}
+	}
+
+	containerWindowType = {
+		name = "equipment_designer_me_329_equipment"
+		position = { x=0 y=0 }
+		size = { width=508 height=248 }
+
+		iconType = {
+			name = "equipment_image_overlay"
+			spriteType = "GFX_TC_small_plane_airframe_0"
+			position = { x=0 y=0 }
+		}
+	}
+
+	# large_plane_airframe
+
+	containerWindowType = {
+		name = "equipment_designer_wunderwaffen_silbervogel_1"
+		position = { x=0 y=0 }
+		size = { width=508 height=248 }
+
+		iconType = {
+			name = "equipment_image_overlay"
+			spriteType = "GFX_TC_large_plane_airframe_0"
+			position = { x=0 y=0 }
+		}
+	}
+
+	containerWindowType = {
+		name = "equipment_designer_wunderwaffen_he_323"
+		position = { x=0 y=0 }
+		size = { width=508 height=248 }
+
+		iconType = {
+			name = "equipment_image_overlay"
+			spriteType = "GFX_TC_large_plane_airframe_0"
+			position = { x=0 y=0 }
+		}
+	}
+
+	containerWindowType = {
+		name = "equipment_designer_wunderwaffen_e_555"
+		position = { x=0 y=0 }
+		size = { width=508 height=248 }
+
+		iconType = {
+			name = "equipment_image_overlay"
+			spriteType = "GFX_TC_large_plane_airframe_0"
+			position = { x=0 y=0 }
+		}
+	}
+
+	containerWindowType = {
+		name = "equipment_designer_wunderwaffen_ju287v2"
+		position = { x=0 y=0 }
+		size = { width=508 height=248 }
+
+		iconType = {
+			name = "equipment_image_overlay"
+			spriteType = "GFX_TC_large_plane_airframe_0"
+			position = { x=0 y=0 }
+		}
+	}
+
+	containerWindowType = {
+		name = "equipment_designer_wunderwaffen_ju_488"
+		position = { x=0 y=0 }
+		size = { width=508 height=248 }
+
+		iconType = {
+			name = "equipment_image_overlay"
+			spriteType = "GFX_TC_large_plane_airframe_0"
+			position = { x=0 y=0 }
+		}
+	}
+
+}

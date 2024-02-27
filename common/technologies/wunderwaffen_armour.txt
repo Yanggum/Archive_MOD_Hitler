@@ -1,0 +1,151 @@
+technologies = {
+
+	wunderwaffen_ratte = {
+
+		enable_equipments = {
+			wunderwaffen_armor_ratte_equipment_1
+		}
+		
+		start_year = 1941
+		
+		path = {
+			leads_to_tech = wunderwaffen_monster 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = wunderwaffen_folder
+			position = { x = -1 y = 2 }
+		}
+		
+		categories = {
+	        armor	
+			cat_wunderwaffen_armor_ratte
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+		}
+	}
+	
+	wunderwaffen_monster = {
+
+		enable_equipments = {
+			wunderwaffen_armor_monster_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = wunderwaffen_lowe 
+			research_cost_coeff = 1
+		}
+		
+		start_year = 1942
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = wunderwaffen_folder
+			position = { x = -1 y = 2 }
+		}
+		
+		categories = {
+		    armor
+			cat_wunderwaffen_armor_monster
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+		}
+	}
+	
+	wunderwaffen_lowe = {
+
+		enable_equipments = {
+			wunderwaffen_armor_lowe_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = wunderwaffen_panzer_IX 
+			research_cost_coeff = 1
+		}
+		
+		start_year = 1943
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = wunderwaffen_folder
+			position = { x = -1 y = 4 }
+		}
+		
+		categories = {
+		armor
+			cat_wunderwaffen_armor_lowe
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+		}
+	}
+	wunderwaffen_panzer_IX = {
+
+		enable_equipments = {
+			wunderwaffen_armor_panzer_IX_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = wunderwaffen_panzer_X 
+			research_cost_coeff = 1
+		}
+		
+		start_year = 1944
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = wunderwaffen_folder
+			position = { x = -1 y = 6 }
+		}
+		
+		categories = {
+		armor
+			cat_wunderwaffen_armor_panzer_IX
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+		}
+	}
+	
+	wunderwaffen_panzer_X = {
+
+		enable_equipments = {
+			wunderwaffen_armor_panzer_X_equipment_1
+		}
+		
+		start_year = 1945
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = wunderwaffen_folder
+			position = { x = -1 y = 8 }
+		}
+		
+		categories = {
+			armor
+			cat_wunderwaffen_armor_panzer_X
+		}
+		
+		ai_will_do = {
+			factor = 2
+			
+		}
+	}
+}

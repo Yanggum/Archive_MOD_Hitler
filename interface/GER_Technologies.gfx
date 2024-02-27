@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_GER_techtree_bg"
+		textureFile = "gfx/interface/techtree/mil_techtree_bg.dds"
+	}
+}

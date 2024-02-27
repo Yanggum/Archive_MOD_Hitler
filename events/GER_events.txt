@@ -1,0 +1,407 @@
+add_namespace = GER_event
+
+
+country_event = { #수상한 함선 나포
+	id = GER_event.1
+	title = GER_event.1.t
+	desc = GER_event.1.desc
+	picture = GFX_event_none_picture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = GER
+	}
+	mean_time_to_happen = {
+		days = 20
+	}
+	
+	option = { 
+		name = GER_event.1.a
+		add_stability = -0.05
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 500
+			producer = GER
+		}
+		country_event = { id = GER_event.2 hours = 12 }
+		custom_effect_tooltip = GER_get_halo_infantry_tt
+		set_country_flag = kivotos_research_on
+	}
+}
+country_event = { #재활용
+	id = GER_event.2
+	title = GER_event.2.t
+	desc = GER_event.2.desc
+	picture = GFX_event_none_picture
+	
+    is_triggered_only = yes
+	
+	option = { 
+		name = GER_event.2.a
+		add_stability = 0.05
+		add_war_support = 0.15
+	}
+}
+country_event = { #국방군에서의 교신
+	id = GER_event.3
+	title = GER_event.3.t
+	desc = GER_event.3.desc
+	picture = GFX_event_none_picture
+	
+    is_triggered_only = yes
+	
+	option = { 
+		name = GER_event.3.a
+		add_stability = 0.1
+		add_war_support = 0.15
+		add_political_power = 50
+		set_country_flag = GER_communication_with_the_mainland_flag
+	}
+	
+	option = { 
+		name = GER_event.3.debug
+		trigger = {
+			is_debug = yes
+		}
+		set_country_flag = GER_debug_all_stop
+	}
+	
+	option = { 
+		name = GER_event.3.debug
+		trigger = {
+			is_debug = yes
+		}
+		clr_country_flag = GER_debug_all_stop
+	}
+}
+country_event = { #북부 독일 수립
+	id = GER_event.4
+	title = GER_event.4.t
+	desc = { 
+		text = GER_event.4.desc
+		trigger = {
+			has_country_flag = GER_communication_with_the_mainland_flag
+		}
+	}
+	desc = { 
+		text = GER_event.4.bad_desc
+		trigger = {
+			NOT = { has_country_flag = GER_communication_with_the_mainland_flag }
+		}
+	}
+	picture = GFX_event_none_picture
+
+	fire_only_once = yes
+    is_triggered_only = yes
+
+	trigger = {
+		country_exists = GEA
+	}
+
+	option = { 
+		name = GER_event.4.a
+		every_country = {
+			limit = {
+				has_war_with = GEA
+			}
+			ROOT = {
+				declare_war_on = {
+					target = PREV
+					type = annex_everything
+				}
+			}
+		}
+		every_state = {
+			limit = {
+				is_core_of = GEA
+			}
+			add_core_of = GER
+		}
+		GEA = {
+			every_character = {
+				set_nationality = ROOT
+			}
+		}
+		
+		annex_country = {
+			target = GEA
+			transfer_troops = yes
+		}
+		complete_national_focus = GER_get_in_touch
+		set_cosmetic_tag = GER_BAY
+
+		if = {
+			limit = {
+				NOT = { has_template = "Nationale Miliz" }
+			}
+			division_template = {
+				name = "Nationale Miliz"
+				priority = 0
+				division_names_group = GER_INF_01
+				regiments = {
+					militia = { x = 0 y = 0 }
+					militia = { x = 0 y = 1 }
+					militia = { x = 0 y = 2 }
+					
+					militia = { x = 1 y = 0 }
+					militia = { x = 1 y = 1 }
+					militia = { x = 1 y = 2 }
+				}
+			}
+		}
+		every_state = {
+			limit = {
+				has_state_flag = GER_state_flag
+			}
+			create_unit = {
+				division = "division_template = \"Nationale Miliz\" start_experience_factor = 0.1 start_equipment_factor = 0.6" 
+				owner = ROOT
+				allow_spawning_on_enemy_provs = yes
+			}
+			clr_state_flag = GER_state_flag
+			owner = {
+				hidden_effect = {
+					country_event = { id = GER_event.11 hours = 8 }
+				}
+			}
+		}
+	}
+
+	option = { 
+		name = GER_event.4.b
+		ai_chance = {
+			factor = 0
+		}
+		add_war_support = -0.20
+	}
+}
+country_event = { #독일 망명군의 지원 요청
+	id = GER_event.5
+	title = GER_event.5.t
+	desc = GER_event.5.desc
+	picture = GFX_event_none_picture
+	
+    is_triggered_only = yes
+	
+	option = { 
+		name = GER_event.5.a
+		add_political_power = -50
+		send_equipment = {
+			equipment = infantry_equipment
+			amount = 1000
+			target = FROM
+		}
+		set_country_flag = GER_volunteers_flag
+		add_timed_idea = {
+			idea = GER_send_volunteers_idea
+			days = 730
+		}
+		FROM = {
+			country_event = { id = GER_event.7 hours = 8 } 
+		}
+	}
+	option = { 
+		name = GER_event.5.b
+		add_political_power = 10
+		FROM = {
+			country_event = { id = GER_event.6 hours = 8 } 
+		}
+	}
+}
+country_event = { #5-거절
+	id = GER_event.6
+	title = GER_event.6.t
+	desc = GER_event.6.desc
+	picture = GFX_event_none_picture
+	
+    is_triggered_only = yes
+	
+	option = { 
+		name = GER_event.6.a
+		add_war_support = -0.03
+	}
+}
+country_event = { #5-수락
+	id = GER_event.7
+	title = GER_event.7.t
+	desc = GER_event.7.desc
+	picture = GFX_event_none_picture
+	
+    is_triggered_only = yes
+	
+	option = { 
+		name = GER_event.7.a
+		add_stability = 0.05
+		add_war_support = 0.05
+	}
+}
+country_event = { #게헨나 항복
+	id = GER_event.8
+	title = GER_event.8.t
+	desc = { 
+		text = GER_event.8.gen_desc
+		trigger = {
+			tag = GER
+		}
+	}
+	desc = { 
+		text = GER_event.8.fam_desc
+		trigger = {
+			tag = FRM
+		}
+	}
+	desc = { 
+		text = GER_event.8.desc
+		trigger = {
+			NOT = {
+				OR = {
+					tag = GER
+					tag = FRM
+				}
+			}
+		}
+	}
+	picture = GFX_event_GEM_MAKOTO_event
+	
+    is_triggered_only = yes
+	
+	option = { 
+		name = GER_event.8.a
+		add_war_support = -0.05
+		FROM = {
+			country_event = { id = GER_event.9 hours = 8 } 
+		}
+	}
+	option = { 
+		name = GER_event.8.b
+		ai_chance = {
+			factor = 0
+		}
+		add_war_support = 0.10
+		FROM = {
+			country_event = { id = GER_event.10 hours = 8 } 
+		}
+	}
+}
+country_event = { #수락
+	id = GER_event.9
+	title = GER_event.9.t
+	desc = GER_event.9.desc
+	picture = GFX_event_GEM_MAKOTO_event
+	
+    is_triggered_only = yes
+	
+	option = { 
+		name = GER_event.9.a
+		add_war_support = -0.03
+		white_peace = FROM
+		if = {
+			limit = {
+				FROM = { tag = GER }
+			}
+			GER = {
+				set_country_flag = GER_win_the_war_GEH_flag
+				transfer_state = 56
+				transfer_state = 59
+			}
+		}
+		if = {
+			limit = {
+				FROM = { tag = FRA }
+			}
+			FRA = {
+				transfer_state = 28
+				transfer_state = 943
+			}
+		}
+	}
+}
+country_event = { #거절
+	id = GER_event.10
+	title = GER_event.10.t
+	desc = GER_event.10.desc
+	picture = GFX_event_GEM_MAKOTO_event
+	
+    is_triggered_only = yes
+	
+	option = { 
+		name = GER_event.10.a
+		add_war_support = 0.05
+		add_to_variable = { ROOT.halo_WarBrigade_cap = 5 } 
+		if = {
+			limit = {
+				not = { has_template = "Halo War Brigade" }
+			}
+			
+			division_template = {
+			name = "Halo War Brigade"		
+			division_names_group = GEM_INF_01
+			is_locked = yes
+			force_allow_recruiting = yes
+				division_cap = 5
+				regiments = {
+					halo_infantry = { x = 0 y = 0 }
+					halo_infantry = { x = 0 y = 1 }
+					halo_infantry = { x = 0 y = 2 }
+					halo_infantry = { x = 0 y = 3 }
+					halo_infantry = { x = 1 y = 0 }
+					halo_infantry = { x = 1 y = 1 }
+					halo_infantry = { x = 1 y = 2 }
+					halo_infantry = { x = 1 y = 3 }
+				}
+				support = {
+					halo_recon = { x = 0 y = 0 }
+					engineer = { x = 0 y = 1 }
+				}
+			}
+		}
+		else = {
+			if = {
+				limit = {
+					has_template = "Halo War Brigade"
+				}
+				set_division_template_cap = {
+					division_template = "Halo War Brigade"
+					division_cap = ROOT.halo_WarBrigade_cap
+				}
+			}
+		}
+		capital_scope = {
+			create_unit = {
+				division = "name = \"Halo War Brigade\" division_template = \"Halo War Brigade\" start_experience_factor = 0.1" 
+				owner = ROOT
+			}
+			create_unit = {
+				division = "name = \"Halo War Brigade\" division_template = \"Halo War Brigade\" start_experience_factor = 0.1" 
+				owner = ROOT
+			}
+			create_unit = {
+				division = "name = \"Halo War Brigade\" division_template = \"Halo War Brigade\" start_experience_factor = 0.1 start_equipment_factor = 0.7" 
+				owner = ROOT
+			}
+			create_unit = {
+				division = "name = \"Halo War Brigade\" division_template = \"Halo War Brigade\" start_experience_factor = 0.1 start_equipment_factor = 0.7" 
+				owner = ROOT
+			}
+			create_unit = {
+				division = "name = \"Halo War Brigade\" division_template = \"Halo War Brigade\" start_experience_factor = 0.1 start_equipment_factor = 0.7" 
+				owner = ROOT
+			}
+		}
+	}
+}
+country_event = { #후방에 민병대 출현
+	id = GER_event.11
+	title = GER_event.11.t
+	desc = GER_event.11.desc
+	picture = GFX_event_none_picture
+	
+	fire_only_once = yes
+    is_triggered_only = yes
+	
+	option = { 
+		name = GER_event.11.a
+		add_war_support = -0.05
+	}
+}

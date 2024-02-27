@@ -1,0 +1,24 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new technology, make sure they are uniquely named.
+
+technology_categories = {
+	cat_wunderwaffen_armor_ratte
+	cat_wunderwaffen_armor_monster
+	cat_wunderwaffen_armor_lowe
+	cat_wunderwaffen_armor_panzer_IX
+	cat_wunderwaffen_armor_panzer_X
+	cat_wunderwaffen_rail_artillery
+	cat_uber_armor
+}
+
+technology_folders = {
+	wunderwaffen_folder = {
+		available = {
+			OR = {
+			original_tag = GER		
+			}
+		}
+	}
+}
+
+ 

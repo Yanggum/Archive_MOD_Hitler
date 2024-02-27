@@ -1,0 +1,220 @@
+spriteTypes = {	
+
+	### generic equipment archetypes ###
+
+	SpriteType = {
+		name = "GFX_GER_uber_infantry_tech_medium"
+		texturefile = "gfx/interface/technologies/uber_infantry.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_uber_infantry_equipment_medium"
+		texturefile = "gfx/interface/technologies/uber_infantry.dds"
+	}
+
+##mod##
+	SpriteType = {
+		name = "GFX_wunderwaffen_ratte_medium"
+		textureFile = "gfx/interface/technologies/ratte.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_wunderwaffen_monster_medium"
+		textureFile = "gfx/interface/technologies/monster.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_wunderwaffen_lowe_medium"
+		textureFile = "gfx/interface/technologies/lowe.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_wunderwaffen_panzer_IX_medium"
+		textureFile = "gfx/interface/technologies/panzerix.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_wunderwaffen_panzer_X_medium"
+		textureFile = "gfx/interface/technologies/panzerx.dds"
+	}
+	
+#planes#	
+	
+	SpriteType = {
+		name = "GFX_wunderwaffen_silbervogel_1_medium"
+		textureFile = "gfx/interface/technologies/sg.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_wunderwaffen_ju_488_medium"
+		textureFile = "gfx/interface/technologies/ju488.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_wunderwaffen_ju287v2_medium"
+		textureFile = "gfx/interface/technologies/ju287v2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_wunderwaffen_e_555_medium"
+		textureFile = "gfx/interface/technologies/e555.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_wunderwaffen_he_323_medium"
+		textureFile = "gfx/interface/technologies/wunderwaffen_bomber.dds"
+	}
+	
+#cas#
+
+	SpriteType = {
+		name = "GFX_me_329_medium"
+		textureFile = "gfx/interface/technologies/me329.dds"
+      }
+   	SpriteType = {
+		name = "GFX_do_335_medium"
+		textureFile = "gfx/interface/technologies/do335.dds"
+      }
+	SpriteType = {
+		name = "GFX_ho_229_medium"
+		textureFile = "gfx/interface/technologies/ho229.dds"
+      }	
+	  SpriteType = {
+		name = "GFX_hs_132_medium"
+		textureFile = "gfx/interface/technologies/hs132.dds"
+      }
+	  SpriteType = {
+		name = "GFX_dfs_194_medium"
+		textureFile = "gfx/interface/technologies/dfs194.dds"
+      }
+	  
+#fighter#
+	  SpriteType = {
+		name = "GFX_wunderwaffen_heinkel_he162_medium"
+		textureFile = "gfx/interface/technologies/he162.dds"
+      }
+	 	  SpriteType = {
+		name = "GFX_wunderwaffen_focke_achgelis_fa269_medium"
+		textureFile = "gfx/interface/technologies/fa269.dds"
+      }
+	 	  SpriteType = {
+		name = "GFX_wunderwaffen_me163_komet_medium"
+		textureFile = "gfx/interface/technologies/me163.dds"
+      }
+	 	  SpriteType = {
+		name = "GFX_wunderwaffen_heinkel_he280_medium"
+		textureFile = "gfx/interface/technologies/wunderwaffen_fighter.dds"
+      }
+	 	  SpriteType = {
+		name = "GFX_wunderwaffen_heinkel_he176_medium"
+		textureFile = "gfx/interface/technologies/he176.dds"
+      }
+	  
+	  
+#nuclear#
+
+	SpriteType = {
+		name = "GFX_wunderwaffen_r_1_medium"
+		texturefile = "gfx/interface/technologies/atomic_research.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_wunderwaffen_r_2_medium"
+		texturefile = "gfx/interface/technologies/atomic_research.dds"
+	}
+	SpriteType = {
+		name = "GFX_wunderwaffen_r_3_medium"
+		texturefile = "gfx/interface/technologies/atomic_research.dds"
+	}
+	SpriteType = {
+		name = "GFX_wunderwaffen_r_4_medium"
+		texturefile = "gfx/interface/technologies/atomic_research.dds"
+	}
+
+#artillery#
+
+	SpriteType = {
+		name = "GFX_wunderwaffen_k12v_medium"
+		texturefile = "gfx/interface/technologies/wunderwaffen_artillery.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_wunderwaffen_k12n_medium"
+		texturefile = "gfx/interface/technologies/wunderwaffen_artillery.dds"
+	}
+	
+#sub#
+
+	SpriteType = {
+		name = "GFX_wunderwaffen_rocket_uboat_medium"
+		texturefile = "gfx/interface/technologies/ru.dds"
+	}
+	
+		SpriteType = {
+		name = "GFX_wunderwaffen_uboat_xxiii_medium"
+		texturefile = "gfx/interface/technologies/xxiii.dds"
+	}
+	
+		SpriteType = {
+		name = "GFX_wunderwaffen_rocket_uboat2_medium"
+		texturefile = "gfx/interface/technologies/ru.dds"
+	}
+	
+#rocket#
+	
+	SpriteType = {
+		name = "GFX_wunderwaffen_se_medium"
+		texturefile = "gfx/interface/technologies/rocket.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_wunderwaffen_sd_medium"
+		texturefile = "gfx/interface/technologies/sd.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_wunderwaffen_v1_medium"
+		texturefile = "gfx/interface/technologies/v1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_wunderwaffen_v2_medium"
+		texturefile = "gfx/interface/technologies/v2.dds"
+	}	
+
+
+	SpriteType = {
+		name = "GFX_gwtank_medium"
+		texturefile = "gfx/interface/technologies/gwtank.dds"
+	}	
+
+
+	spriteType = {
+		name = "GFX_subtech_td"
+		textureFile = "gfx/interface/technologies/subtech_td.dds"
+	}
+
+	spriteType = {
+		name = "GFX_subtech_rocket"
+		textureFile = "gfx/interface/technologies/subtech_rocket.dds"
+	}
+	spriteType = {
+		name = "GFX_subtech_heavy_battleship"
+		textureFile = "gfx/interface/subtech_heavy_battleship.dds"
+	}
+
+	spriteType = {
+		name = "GFX_subtech_art"
+		textureFile = "gfx/interface/technologies/subtech_art.dds"
+	}
+
+	spriteType = {
+		name = "GFX_subtech_aa"
+		textureFile = "gfx/interface/technologies/subtech_aa.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_subtech_cag"
+		textureFile = "gfx/interface/subtech_carrier_plane.dds"
+	}
+}

@@ -1,0 +1,114 @@
+equipments = {
+
+	wunderwaffen_silbervogel_1 = {
+		year = 1940
+
+		archetype = large_plane_airframe
+		priority = 140
+		module_slots = inherit
+		
+		air_range = 24390
+		maximum_speed = 22100
+		air_agility = 50
+		air_attack = 80
+		air_defence = 160
+		air_bombing = 300
+		reliability = 0.4
+		
+	 build_cost_ic = 250
+		resources = {
+			aluminium = 3
+			steel = 2
+			rubber = 2
+		}
+		fuel_consumption = 5	
+	}
+	
+	wunderwaffen_he_323 = {
+		year = 1942
+
+		archetype = large_plane_airframe
+		priority = 140
+		module_slots = inherit
+		
+		air_range = 1620
+		maximum_speed = 910
+		air_agility = 5
+		air_attack = 50
+		air_defence = 45
+		air_bombing = 45
+		
+	 build_cost_ic = 65
+		resources = {
+			steel = 2
+			rubber = 2
+		}
+		fuel_consumption = 1.1
+	}
+	wunderwaffen_e_555 = {
+		year = 1943
+
+		archetype = large_plane_airframe
+		priority = 140
+		module_slots = inherit
+		
+		air_range = 5000
+		maximum_speed = 600
+		air_agility = 15
+		air_attack = 70
+		air_defence = 60
+		air_bombing = 60
+		
+		build_cost_ic = 80
+		resources = {
+			steel = 2
+			rubber = 2
+		}
+		fuel_consumption = 1.25
+	}
+	
+	wunderwaffen_ju287v2 = {
+		year = 1944
+
+		archetype = large_plane_airframe
+		priority = 140
+		module_slots = inherit
+		
+		air_range = 1576
+		maximum_speed = 814
+		air_agility = 15
+		air_attack = 50
+		air_defence = 80
+		air_bombing = 50
+		
+		build_cost_ic = 60
+		resources = {
+			steel = 2
+			rubber = 2
+		}
+		fuel_consumption = 1.4
+	}
+	
+	wunderwaffen_ju_488 = {
+		year = 1945
+
+		archetype = large_plane_airframe
+		priority = 140
+		module_slots = inherit
+		
+		air_range = 4360
+		maximum_speed = 690
+		air_agility = 3
+		air_attack = 70
+		air_defence = 80
+		air_bombing = 140
+		
+	    build_cost_ic = 150
+	 		resources = {
+			aluminium = 1
+			steel = 2
+			rubber = 2
+		}
+		fuel_consumption = 1.5
+	}
+ }

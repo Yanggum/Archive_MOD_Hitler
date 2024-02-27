@@ -1,0 +1,107 @@
+	technologies = {
+	
+	wunderwaffen_rocket_uboat = {
+
+		enable_equipments = {
+			wunderwaffen_rocket_uboat
+		}
+		
+		path = {
+			leads_to_tech = wunderwaffen_uboat_xxiii
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+
+		start_year = 1941
+		
+		folder = {
+			name = wunderwaffen_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				tag = GER
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			ss_tech
+		}
+	}
+	
+	
+	
+		wunderwaffen_uboat_xxiii = {
+
+		enable_equipments = {
+			wunderwaffen_uboat_xxiii
+		}
+		
+		path = {
+			leads_to_tech = wunderwaffen_rocket_uboat2
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+
+		start_year = 1943
+		
+		folder = {
+			name = wunderwaffen_folder
+			position = { x = 0 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				tag = GER
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			ss_tech
+		}
+	}
+	
+	
+	
+	wunderwaffen_rocket_uboat2 = {
+
+		enable_equipments = {
+			wunderwaffen_rocket_uboat2
+		}
+		
+		research_cost = 2
+
+		start_year = 1945
+		
+		folder = {
+			name = wunderwaffen_folder
+			position = { x = 0 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				tag = GER
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			ss_tech
+		}
+	}
+
+	}

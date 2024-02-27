@@ -1,0 +1,158 @@
+﻿l_english: 
+ 
+ #wunderwaffen#
+ 
+ wunderwaffen_folder:0 "Wunderwaffen"
+ 
+ wunderwaffen_folder_desc:0 "Here you can research the Nazist Secret Weapons, known as Wunderwaffen"
+ 
+ wunderwaffen_armor_panzer_X_equipment_1:0 "Panzer X"
+ 
+ wunderwaffen_armor_panzer_IX_equipment_1:0 "Panzer IX"
+ 
+ wunderwaffen_armor_lowe_equipment_1:0 "Panzer Lowe"
+ 
+ wunderwaffen_armor_monster_equipment_1:0 "P-1500 Monster"
+ 
+ wunderwaffen_armor_ratte_equipment_1:0 "P-1000 Ratte"
+ 
+ wunderwaffen_silbervogel_1:0 "(Bomber) Silbervogel"
+ 
+ wunderwaffen_he_323:0 "(Bomber) He 323"
+ 
+ wunderwaffen_e_555:0 "(Bomber) E 555"
+ 
+ wunderwaffen_ju287v2:0 "(Bomber) Ju 287v2"
+ 
+ wunderwaffen_ju_488:0 "(Bomber) Ju 488"
+ 
+ dfs_194_equipment:0 "(CAS) DFS 194"
+ 
+ hs_132_equipment:0 "(CAS) Hs 132"
+ 
+ ho_229_equipment:0 "(CAS) Ho 229"
+ 
+ do_335_equipment:0 "(CAS) Do 335"
+ 
+ me_329_equipment:0 "(CAS) Me 329"
+ 
+ wunderwaffen_heinkel_he176_equipment:0 "(Fighter) He 176"
+ 
+ wunderwaffen_heinkel_he280_equipment:0 "(Fighter) He 280"
+ 
+ wunderwaffen_me163_komet_equipment:0 "(Fighter) Me 163 "Komet""
+ 
+ 
+ 
+ wunderwaffen_armor_panzer_X_equipment_1_desc:0 "Panzer X"
+ 
+ wunderwaffen_armor_panzer_IX_equipment_1_desc:0 "Panzer IX"
+ 
+ wunderwaffen_armor_lowe_equipment_1_desc:0 "Panzer Lowe"
+ 
+ wunderwaffen_armor_monster_equipment_1_desc:0 "P-1500 Monster"
+ 
+ wunderwaffen_armor_ratte_equipment_1_desc:0 "P-1000 Ratte"
+ 
+ wunderwaffen_silbervogel_1_desc:0 "Silbervogel"
+ 
+ wunderwaffen_he_323_desc:0 "He 323"
+ 
+ wunderwaffen_e_555_desc:0 "E 555"
+ 
+ wunderwaffen_ju287v2_desc:0 "Ju 287v2"
+ 
+ wunderwaffen_ju_488_desc:0 "Ju 488"
+ 
+ dfs_194_equipment_desc:0 "DFS 194"
+ 
+ hs_132_equipment_desc:0 "Hs 132"
+ 
+ ho_229_equipment_desc:0 "Ho 229"
+ 
+ do_335_equipment_desc:0 "Do 335"
+ 
+ me_329_equipment_desc:0 "Me 329"
+ 
+ wunderwaffen_heinkel_he176_equipment_desc:0 "He 176"
+ 
+ wunderwaffen_heinkel_he280_equipment_desc:0 "He 280"
+ 
+ wunderwaffen_me163_komet_equipment_desc:0 "Me 163 "Komet""
+ 
+ #nrp#
+ 
+ wunderwaffen_sd:0 "Ruhrstal SD 1400"
+ 
+ wunderwaffen_se:0 "Selbstopfer"
+ 
+ wunderwaffen_v1:0 "V1 Rocket"
+ 
+ wunderwaffen_v2:0 "V2 Rocket"
+ 
+ wunderwaffen_sd_desc:0 "Ruhrstal SD 1400"
+ 
+ wunderwaffen_se_desc:0 "Selbstopfer"
+ 
+ wunderwaffen_v1_desc:0 "V1 Rocket"
+ 
+ wunderwaffen_v2_desc:0 "V2 Rocket"
+ 
+ ##
+ 
+ wunderwaffen_focke_achgelis_fa269_equipment:0 "(Fighter) Fa 269"
+ 
+ wunderwaffen_heinkel_he162_equipment:0 "(Fighter) He 162"
+ 
+ wunderwaffen_rocket_uboat:0 "Rocket U-Boot"
+ 
+ wunderwaffen_uboat_xxiii:0 "U-Boot XXIII"
+ 
+ wunderwaffen_rocket_uboat2:0 "Rocket U-Boot v2"
+ 
+ 
+ wunderwaffen_focke_achgelis_fa269_equipment_desc:0 "Fa 269"
+ 
+ wunderwaffen_heinkel_he162_equipment_desc:0 "He 162"
+ 
+ wunderwaffen_rocket_uboat_desc:0 "Rocket U-Boot"
+ 
+ wunderwaffen_uboat_xxiii_desc:0 "U-Boot XXIII"
+ 
+ wunderwaffen_rocket_uboat2_desc:0 "Rocket U-Boot v2"
+ 
+ 
+ EXP_ROCKETS:0 "Experimental Rockets will allow us to develop more advanced airplanes, and new Rockets to destroy our enemy."
+ 
+ rail_brigade:0 "Rail Artillery"
+ 
+ rail_brigade:0 "Rail Artillery"
+ 
+ wunderwaffen_armor_lowe:0 "Panzer Lowe Brigade"
+ 
+ wunderwaffen_armor_monster:0 "E-1500 Monster Brigade"
+ 
+ wunderwaffen_armor_ratte:0 "E-1000 Ratte Brigade"
+ 
+ wunderwaffen_armor_panzer_IX:0 "Panzer IX"
+ 
+ wunderwaffen_armor_panzer_X:0 "Panzer X"
+ 
+ wunderwaffen_cas:0 "Wunderwaffen CAS"
+ 
+ wunderwaffen_fighter:0 "Wunderwaffen Fighter"
+ 
+ wunderwaffen_bomber:0 "Wunderwaffen Bomber"
+ 
+ ##
+ 
+ wunderwaffen_armor_lowe_equipment:0 "Panzer Lowe"
+ wunderwaffen_armor_monster_equipment:0 "P-1500 Monster"
+ wunderwaffen_armor_panzer_IX_equipment:0 "Panzer IX"
+ wunderwaffen_armor_panzer_X_equipment:0 "Panzer X"
+ wunderwaffen_armor_ratte_equipment:0 "P-1000 Ratte"
+ 
+ #
+ 
+
+#####---------------------------------------------------------------------> End

@@ -1,0 +1,145 @@
+	technologies = {
+	
+		wunderwaffen_se = {
+
+		dependencies = {
+			experimental_rockets = 1
+		}
+		
+		enable_equipments = {
+		 wunderwaffen_se
+		  }
+		  
+		path = {
+			leads_to_tech = wunderwaffen_sd
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+
+		start_year = 1942
+		
+		folder = {
+			name = wunderwaffen_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				tag = GER
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+	}
+	
+	wunderwaffen_sd = {
+		
+		path = {
+			leads_to_tech = wunderwaffen_v1
+			research_cost_coeff = 1
+		}
+
+				enable_equipments = {
+		 wunderwaffen_sd
+		  }
+		
+		
+		research_cost = 1
+
+		start_year = 1943
+		
+		folder = {
+			name = wunderwaffen_folder
+			position = { x = 0 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				tag = GER
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+	}
+	
+	wunderwaffen_v1 = {
+
+
+		
+		path = {
+			leads_to_tech = wunderwaffen_v2
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+
+				enable_equipments = {
+		 wunderwaffen_v1
+		  }
+		
+
+		
+		start_year = 1944
+		
+		folder = {
+			name = wunderwaffen_folder
+			position = { x = 0 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				tag = GER
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+	}
+	
+	wunderwaffen_v2 = {
+	
+		
+		research_cost = 1
+
+		start_year = 1945
+		
+						enable_equipments = {
+		 wunderwaffen_v2
+		  }
+		
+		folder = {
+			name = wunderwaffen_folder
+			position = { x = 0 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				tag = GER
+			}
+		}
+		
+		categories = {
+			electronics
+		}
+	}
+	
+
+}

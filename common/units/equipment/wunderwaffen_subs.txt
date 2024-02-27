@@ -1,0 +1,212 @@
+equipments = {
+
+	wunderwaffen_rocket_uboat = {
+		year = 1941
+
+		archetype = ship_hull_submarine
+		parent = ship_hull_submarine_1
+		priority = 80
+		
+		upgrades = {
+			ship_reliability_upgrade
+			sub_engine_upgrade
+			sub_stealth_upgrade
+			sub_torpedo_upgrade
+		}
+		
+		interface_category = interface_category_other_ships
+
+		module_slots = {
+			fixed_ship_torpedo_slot = {
+				required = yes
+				allowed_module_categories = { ship_torpedo_sub }
+			}
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = { sub_ship_engine }
+			}
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_torpedo_sub
+					ship_mine_layer_sub
+				}
+			}
+		}
+		
+		module_count_limit = {
+			category = ship_radar
+			count < 2
+		}
+		
+		default_modules = {
+			fixed_ship_torpedo_slot = empty
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = empty
+		}
+		
+		lg_armor_piercing = 0
+		lg_attack = 0
+		
+		hg_armor_piercing = 0
+		hg_attack = 0
+		
+		sub_attack = 0
+		
+		anti_air_attack = 0
+		
+		armor_value = 0
+		
+		torpedo_attack = 30
+		
+		anti_air_attack = 1
+		
+		armor_value = 0
+		
+		surface_detection = 60
+		sub_detection = 0
+		surface_visibility = 8
+		sub_visibility = 13
+		naval_speed = 15
+		reliability = 0.65
+
+		naval_range = 8000
+		
+		max_strength = 30
+		
+		fuel_consumption = 1
+		
+		build_cost_ic = 700
+		resources = {
+			#
+			steel = 2
+		}
+		type = { 
+			submarine
+		}
+			manpower = 300
+	}
+	
+	wunderwaffen_uboat_xxiii = {
+		year = 1943
+
+		archetype = ship_hull_submarine
+		parent = wunderwaffen_rocket_uboat
+		priority = 80
+		
+		module_slots = {
+			fixed_ship_torpedo_slot = inherit 
+			fixed_ship_engine_slot = inherit
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_torpedo_sub
+					ship_mine_layer_sub
+				}
+			}
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_radar
+					ship_sub_snorkel
+				}
+			}
+			rear_1_custom_slot = front_1_custom_slot
+		}
+
+		default_modules = {
+			front_1_custom_slot = empty
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+		
+		torpedo_attack = 26
+		
+		anti_air_attack = 1
+		
+		armor_value = 0
+		
+		surface_detection = 80
+		sub_detection = 0
+		surface_visibility = 3
+		sub_visibility = 5
+		naval_speed = 20
+		reliability = 0.8
+
+		naval_range = 6000
+		
+		max_strength = 50
+		
+		
+		build_cost_ic = 650
+		resources = {
+			
+			steel = 2
+		}
+		type = { 
+			submarine
+		}		
+	}
+	
+	wunderwaffen_rocket_uboat2 = {
+		year = 1945
+
+		archetype = ship_hull_submarine
+		parent = wunderwaffen_uboat_xxiii
+		priority = 80
+		
+		module_slots = {
+			fixed_ship_torpedo_slot = inherit 
+			fixed_ship_engine_slot = inherit
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_torpedo_sub
+					ship_mine_layer_sub
+				}
+			}
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_radar
+					ship_sub_snorkel
+				}
+			}
+			rear_1_custom_slot = front_1_custom_slot
+		}
+
+		default_modules = {
+			front_1_custom_slot = empty
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+		
+		torpedo_attack = 35
+		
+		anti_air_attack = 2
+		
+		armor_value = 0
+		
+		surface_detection = 80
+		sub_detection = 5
+		surface_visibility = 3
+		sub_visibility = 3
+		naval_speed = 23
+		reliability = 0.8
+
+		naval_range = 10000
+		
+		max_strength = 60
+		
+		
+		build_cost_ic = 800
+		resources = {
+			
+			steel = 2
+		}
+		type = { 
+			submarine
+		}		
+	}
+
+}

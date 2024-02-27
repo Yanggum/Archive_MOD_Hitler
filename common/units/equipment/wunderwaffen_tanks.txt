@@ -1,0 +1,868 @@
+equipments = {
+
+	wunderwaffen_armor_panzer_X_equipment = {
+		year = 1922
+		is_archetype = yes
+		is_buildable = no
+		can_be_produced = {
+			if = {
+				limit = {
+					has_dlc = "Arms Against Tyranny"
+				}
+				NOT = {
+					has_idea = BUL_army_restrictions_aat
+				}
+			}
+			else = {
+				NOT = {
+					has_idea = BUL_army_restrictions
+				}
+			}
+		}
+		picture = archetype_heavy_tank_equipment
+		type = armor
+		group_by = archetype
+		interface_category = interface_category_armor
+		priority = 2000
+
+		module_slots = {
+
+			turret_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_light_turret_type
+					tank_medium_turret_type
+					tank_heavy_turret_type
+				}
+			}
+			
+			main_armament_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_small_main_armament
+					tank_flamethrower
+				}
+			}
+
+			suspension_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_suspension_type
+				}
+			}
+
+			armor_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_armor_type
+				}
+			}
+
+			engine_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_engine_type
+				}
+			}
+
+			special_type_slot_1 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+					tank_radio_module
+					tank_secondary_turret
+				}
+			}
+
+			special_type_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+					tank_secondary_turret
+					tank_radio_module
+				}
+			}
+
+			special_type_slot_3 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+					tank_secondary_turret
+					tank_radio_module
+				}
+			}
+
+			special_type_slot_4 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+					tank_secondary_turret
+					tank_radio_module
+				}
+			}
+
+		}
+
+		default_modules = {
+			main_armament_slot = empty
+			turret_type_slot = tank_heavy_two_man_tank_turret
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+		}
+
+		fuel_consumption = 0
+		#Misc Abilities
+		maximum_speed = 4
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 40
+		breakthrough = 105
+		hardness = 0.99
+		armor_value = 170
+
+		#Offensive Abilities
+		soft_attack = 42
+		hard_attack = 45
+		ap_attack = 160
+		air_attack = 1
+
+		#Space taken in convoy
+		lend_lease_cost = 30
+		
+		build_cost_ic = 90
+		resources = {
+			
+			steel = 2
+			chromium = 3
+		}
+
+		manpower = 2
+	}
+	
+   wunderwaffen_armor_panzer_X_equipment_1 = {
+	    abbreviation = "wapxe1"
+	    derived_variant_name = "Panzer X"
+		year = 1943
+		archetype = wunderwaffen_armor_panzer_X_equipment		
+		priority = 2590
+		module_slots = inherit
+		visual_level = 0
+
+		upgrades = {
+			tank_nsb_engine_upgrade
+			tank_nsb_armor_upgrade
+		}
+		#Misc Abilities
+		maximum_speed = 4
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 40
+		breakthrough = 105
+		hardness = 0.99
+		armor_value = 170
+
+		#Offensive Abilities
+		soft_attack = 42
+		hard_attack = 45
+		ap_attack = 160
+		air_attack = 1
+
+		fuel_consumption = 30	
+	}
+
+	wunderwaffen_armor_panzer_IX_equipment = {
+		year = 1934
+		is_archetype = yes
+		is_buildable = no
+		can_be_produced = {
+			if = {
+				limit = {
+					has_dlc = "Arms Against Tyranny"
+				}
+				NOT = {
+					has_idea = BUL_army_restrictions_aat
+				}
+			}
+			else = {
+				NOT = {
+					has_idea = BUL_army_restrictions
+				}
+			}
+		}
+		picture = archetype_heavy_tank_equipment
+		type = armor
+		group_by = archetype
+		interface_category = interface_category_armor
+		priority = 2000
+
+		module_slots = {
+
+			turret_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_light_turret_type
+					tank_medium_turret_type
+					tank_heavy_turret_type
+				}
+			}
+			
+			main_armament_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_small_main_armament
+					tank_flamethrower
+				}
+			}
+
+			suspension_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_suspension_type
+				}
+			}
+
+			armor_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_armor_type
+				}
+			}
+
+			engine_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_engine_type
+				}
+			}
+
+			special_type_slot_1 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+					tank_radio_module
+					tank_secondary_turret
+				}
+			}
+
+			special_type_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+					tank_secondary_turret
+					tank_radio_module
+				}
+			}
+
+			special_type_slot_3 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+					tank_secondary_turret
+					tank_radio_module
+				}
+			}
+
+			special_type_slot_4 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+					tank_secondary_turret
+					tank_radio_module
+				}
+			}
+
+		}
+
+		default_modules = {
+			main_armament_slot = empty
+			turret_type_slot = tank_heavy_two_man_tank_turret
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+		}		
+				
+		#Misc Abilities
+		maximum_speed = 3.7
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 35
+		breakthrough = 100
+		hardness = 0.99
+		armor_value = 160
+
+		#Offensive Abilities
+		soft_attack = 40
+		hard_attack = 40
+		ap_attack = 130
+		air_attack = 1
+
+		#Space taken in convoy
+		lend_lease_cost = 30
+		
+		build_cost_ic = 85
+		fuel_consumption = 0
+		resources = {			
+			steel = 2
+			chromium = 2
+		}
+
+		manpower = 2
+	}
+	
+    wunderwaffen_armor_panzer_IX_equipment_1 = {
+		abbreviation = "wapi1"
+		derived_variant_name = "Panzer IX"
+		visual_level = 0
+		year = 1943
+		archetype = wunderwaffen_armor_panzer_IX_equipment	
+		priority = 2590
+		module_slots = inherit
+		upgrades = {
+			tank_nsb_engine_upgrade
+			tank_nsb_armor_upgrade
+		}
+
+		#Misc Abilities
+		maximum_speed = 3.7
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 35
+		breakthrough = 100
+		hardness = 0.99
+		armor_value = 160
+
+		#Offensive Abilities
+		soft_attack = 40
+		hard_attack = 40
+		ap_attack = 130
+		air_attack = 1		
+
+		fuel_consumption = 30	
+	}
+
+
+   ###
+
+	wunderwaffen_armor_lowe_equipment = {
+		is_archetype = yes
+		is_buildable = no
+		can_be_produced = {
+			if = {
+				limit = {
+					has_dlc = "Arms Against Tyranny"
+				}
+				NOT = {
+					has_idea = BUL_army_restrictions_aat
+				}
+			}
+			else = {
+				NOT = {
+					has_idea = BUL_army_restrictions
+				}
+			}
+		}
+		picture = archetype_heavy_tank_equipment
+		type = armor
+		group_by = archetype
+		interface_category = interface_category_armor
+		priority = 2000
+
+		module_slots = {
+
+			turret_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_light_turret_type
+					tank_medium_turret_type
+					tank_heavy_turret_type
+				}
+			}
+			
+			main_armament_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_small_main_armament
+					tank_flamethrower
+				}
+			}
+
+			suspension_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_suspension_type
+				}
+			}
+
+			armor_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_armor_type
+				}
+			}
+
+			engine_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_engine_type
+				}
+			}
+
+			special_type_slot_1 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+					tank_radio_module
+					tank_secondary_turret
+				}
+			}
+
+			special_type_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+					tank_secondary_turret
+					tank_radio_module
+				}
+			}
+
+			special_type_slot_3 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+					tank_secondary_turret
+					tank_radio_module
+				}
+			}
+
+			special_type_slot_4 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+					tank_secondary_turret
+					tank_radio_module
+				}
+			}
+
+		}
+
+		default_modules = {
+			main_armament_slot = empty
+			turret_type_slot = tank_heavy_two_man_tank_turret
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+		}
+				
+		#Misc Abilities
+		maximum_speed = 3.5
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 25
+		breakthrough = 65
+		hardness = 0.99
+		armor_value = 120
+
+		#Offensive Abilities
+		soft_attack = 40
+		hard_attack = 40
+		ap_attack = 120
+		air_attack = 1
+
+		#Space taken in convoy
+		lend_lease_cost = 30
+		
+		build_cost_ic = 80
+		resources = {
+			
+			steel = 2
+			chromium = 3
+		}
+		fuel_consumption = 0
+
+		manpower = 2
+	}
+	
+   wunderwaffen_armor_lowe_equipment_1 = {
+	    abbreviation = "wale1"
+	    derived_variant_name = "Panzer Lowe"
+	    visual_level = 0
+		year = 1943
+		archetype = wunderwaffen_armor_lowe_equipment
+		priority = 2590
+		module_slots = inherit
+		upgrades = {
+			tank_nsb_engine_upgrade
+			tank_nsb_armor_upgrade
+		}
+
+
+		#Misc Abilities
+		maximum_speed = 3.5
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 25
+		breakthrough = 65
+		hardness = 0.99
+		armor_value = 120
+
+		#Offensive Abilities
+		soft_attack = 40
+		hard_attack = 40
+		ap_attack = 120
+		air_attack = 1		
+
+		fuel_consumption = 30	
+	}
+	
+	##
+
+	wunderwaffen_armor_monster_equipment = {
+		is_archetype = yes
+		is_buildable = no
+		can_be_produced = {
+			if = {
+				limit = {
+					has_dlc = "Arms Against Tyranny"
+				}
+				NOT = {
+					has_idea = BUL_army_restrictions_aat
+				}
+			}
+			else = {
+				NOT = {
+					has_idea = BUL_army_restrictions
+				}
+			}
+		}
+		picture = archetype_heavy_tank_equipment
+		type = armor
+		group_by = archetype
+		interface_category = interface_category_armor
+		priority = 2000		
+
+		module_slots = {
+
+			turret_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_light_turret_type
+					tank_medium_turret_type
+					tank_heavy_turret_type
+				}
+			}
+			
+			main_armament_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_small_main_armament
+					tank_flamethrower
+				}
+			}
+
+			suspension_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_suspension_type
+				}
+			}
+
+			armor_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_armor_type
+				}
+			}
+
+			engine_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_engine_type
+				}
+			}
+
+			special_type_slot_1 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+					tank_radio_module
+					tank_secondary_turret
+				}
+			}
+
+			special_type_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+					tank_secondary_turret
+					tank_radio_module
+				}
+			}
+
+			special_type_slot_3 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+					tank_secondary_turret
+					tank_radio_module
+				}
+			}
+
+			special_type_slot_4 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+					tank_secondary_turret
+					tank_radio_module
+				}
+			}
+
+		}
+
+		default_modules = {
+			main_armament_slot = empty
+			turret_type_slot = tank_heavy_two_man_tank_turret
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+		}
+				
+		#Misc Abilities
+		maximum_speed = 2.7
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 25
+		breakthrough = 260
+		hardness = 0.99
+		armor_value = 250
+
+		#Offensive Abilities
+		soft_attack = 75
+		hard_attack = 235
+		ap_attack = 670
+		air_attack = 12
+
+		#Space taken in convoy
+		lend_lease_cost = 30
+		
+		build_cost_ic = 300
+		resources = {
+			
+			steel = 6
+			chromium = 5
+		}
+		fuel_consumption = 0
+		manpower = 2	
+	}
+	
+   wunderwaffen_armor_monster_equipment_1 = {
+	    abbreviation = "wame1"
+	    derived_variant_name = "P-1500 Monster"
+	    year = 1941
+		archetype = wunderwaffen_armor_monster_equipment		
+		priority = 2590
+		visual_level = 0
+		
+		module_slots = inherit
+		upgrades = {
+			tank_nsb_engine_upgrade
+			tank_nsb_armor_upgrade
+		}
+		#Misc Abilities
+		maximum_speed = 2.7
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 25
+		breakthrough = 260
+		hardness = 0.99
+		armor_value = 250
+
+		#Offensive Abilities
+		soft_attack = 75
+		hard_attack = 235
+		ap_attack = 670
+		air_attack = 12
+
+		fuel_consumption = 32.5
+	}
+	
+	
+	wunderwaffen_armor_ratte_equipment = {
+		is_archetype = yes
+		is_buildable = no
+		can_be_produced = {
+			if = {
+				limit = {
+					has_dlc = "Arms Against Tyranny"
+				}
+				NOT = {
+					has_idea = BUL_army_restrictions_aat
+				}
+			}
+			else = {
+				NOT = {
+					has_idea = BUL_army_restrictions
+				}
+			}
+		}
+		picture = archetype_heavy_tank_equipment
+		type = armor
+		group_by = archetype
+		interface_category = interface_category_armor
+		priority = 2000		
+
+		module_slots = {
+
+			turret_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_light_turret_type
+					tank_medium_turret_type
+					tank_heavy_turret_type
+				}
+			}
+			
+			main_armament_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_small_main_armament
+					tank_flamethrower
+				}
+			}
+
+			suspension_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_suspension_type
+				}
+			}
+
+			armor_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_armor_type
+				}
+			}
+
+			engine_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_engine_type
+				}
+			}
+
+			special_type_slot_1 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+					tank_radio_module
+					tank_secondary_turret
+				}
+			}
+
+			special_type_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+					tank_secondary_turret
+					tank_radio_module
+				}
+			}
+
+			special_type_slot_3 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+					tank_secondary_turret
+					tank_radio_module
+				}
+			}
+
+			special_type_slot_4 = {
+				required = no
+				allowed_module_categories = {
+					tank_special_module
+					tank_secondary_turret
+					tank_radio_module
+				}
+			}
+
+		}
+
+		default_modules = {
+			main_armament_slot = empty
+			turret_type_slot = tank_heavy_two_man_tank_turret
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+		}
+				
+		#Misc Abilities
+		maximum_speed = 4
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 15
+		breakthrough = 143
+		hardness = 0.99
+		armor_value = 205
+
+		#Offensive Abilities
+		soft_attack = 74
+		hard_attack = 170
+		ap_attack = 270
+		air_attack = 20
+
+		#Space taken in convoy
+		lend_lease_cost = 30
+		
+		build_cost_ic = 300
+		resources = {
+			
+			steel = 5
+			chromium = 4
+		}
+
+		manpower = 2
+	}
+	
+	wunderwaffen_armor_ratte_equipment_1 = {
+		abbreviation = "ware1"
+		derived_variant_name = "P-1000 Ratte"
+		year = 1941
+		visual_level = 0
+		archetype = wunderwaffen_armor_ratte_equipment		
+		priority = 2590
+		module_slots = inherit
+		upgrades = {
+			tank_nsb_engine_upgrade
+			tank_nsb_armor_upgrade
+		}
+
+		#Misc Abilities
+		maximum_speed = 4
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 15
+		breakthrough = 143
+		hardness = 0.99
+		armor_value = 205
+
+		#Offensive Abilities
+		soft_attack = 74
+		hard_attack = 170
+		ap_attack = 270
+		air_attack = 20		
+		fuel_consumption = 30
+	}
+	
+}

@@ -1,0 +1,67 @@
+equipments = {
+
+	wunderwaffen_se = {
+		year = 1942
+
+		archetype = guided_missile_equipment
+		is_buildable = yes
+		one_use_only = yes
+		sprite = missile_default
+		
+		air_range = 350
+		maximum_speed = 640
+		air_agility = 8
+		air_bombing = 450
+		fuel_consumption = 0.1
+		 build_cost_ic = 30
+	}
+
+	wunderwaffen_sd = {
+		year = 1943
+
+		archetype = guided_missile_equipment
+		is_buildable = yes
+		one_use_only = yes
+		sprite = missile_default
+		
+		air_range = 500
+		maximum_speed = 1235
+		air_agility = 10
+		air_bombing = 400
+		fuel_consumption = 0.1
+		build_cost_ic = 36
+	}
+
+	wunderwaffen_v1 = {
+		year = 1944
+
+		archetype = guided_missile_equipment
+		is_buildable = yes
+		one_use_only = yes
+		sprite = missile_default
+		
+		air_range = 450
+		maximum_speed = 640
+		air_agility = 10
+		air_bombing = 500
+		fuel_consumption = 0.1
+		 build_cost_ic = 40
+	}
+	
+	wunderwaffen_v2 = {
+		year = 1945
+
+		archetype = guided_missile_equipment
+		is_buildable = yes
+		one_use_only = yes
+		sprite = missile_default
+		
+		air_range = 600
+		maximum_speed = 5200
+		air_agility = 20
+		air_bombing = 800
+		fuel_consumption = 0.1
+		build_cost_ic = 42
+	}
+	
+}

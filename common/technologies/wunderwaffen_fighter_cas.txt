@@ -1,0 +1,136 @@
+technologies = {
+	dfs_194 = {
+
+		enable_equipments = {
+			dfs_194_equipment
+		}
+	
+		path = {
+			leads_to_tech = hs_132
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1938
+
+		folder = {
+			name = wunderwaffen_folder
+			position = { x = 0 y = 0 }
+		}
+
+		categories = {
+		    cas_bomber
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+	}
+
+	hs_132 = {
+
+		enable_equipments = {
+			hs_132_equipment
+		}
+	
+		path = {
+			leads_to_tech = ho_229
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1941
+
+		folder = {
+			name = wunderwaffen_folder
+			position = { x = 0 y = 6 }
+		}
+
+		categories = {
+		    cas_bomber
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+	}
+	
+	ho_229 = {
+
+		enable_equipments = {
+			ho_229_equipment
+		}
+	
+		path = {
+			leads_to_tech = do_335
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1942
+
+		folder = {
+			name = wunderwaffen_folder
+			position = { x = 0 y = 8 }
+		}
+
+		categories = {
+		    cas_bomber
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+	}
+	
+	do_335 = {
+
+		enable_equipments = {
+			do_335_equipment
+		}
+	
+		path = {
+			leads_to_tech = me_329
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1943
+
+		folder = {
+			name = wunderwaffen_folder
+			position = { x = 0 y = 10 }
+		}
+
+		categories = {
+		    cas_bomber
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+	}
+	
+	me_329 = {
+
+		enable_equipments = {
+			me_329_equipment
+		}
+		
+		research_cost = 1.5
+		start_year = 1945
+
+		folder = {
+			name = wunderwaffen_folder
+			position = { x = 0 y = 14 }
+		}
+
+		categories = {
+		    cas_bomber
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+	}
+}

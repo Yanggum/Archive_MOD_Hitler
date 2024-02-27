@@ -1,0 +1,14 @@
+spriteTypes = {
+#mod
+	spriteType = {
+		name = "GFX_wunderwaffen_background"
+		textureFile = "gfx/interface/wunderwaffen_background.dds"
+	}
+	spriteType = {
+		name = "GFX_techtree_wunderwaffen_icon_tab"
+		textureFile = "gfx/interface/techtree_wunderwaffen_icon_tab.dds"
+		noOfFrames = 2
+	}
+
+
+}

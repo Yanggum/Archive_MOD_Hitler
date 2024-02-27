@@ -1,0 +1,48 @@
+# options for map_icon_category:
+# For land units: infantry,armored,other
+# For sea units: ship,transport,uboat
+
+sub_units = {
+	uber_infantry = {
+		sprite = uber_infantry
+		map_icon_category = infantry
+		
+		priority = 600
+		ai_priority = 200
+		active = no
+
+		type = {
+			infantry
+		}
+		
+		group = infantry
+		
+		categories = {
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+			category_uber_infantry
+		}
+		
+		combat_width = 2
+		
+		#Size Definitions
+		max_strength = 50
+		max_organisation = 100
+		default_morale = 0.6
+		manpower = 1000
+
+		#Misc Abilities
+		training_time = 90
+		suppression = 3
+		weight = 0.4
+		
+		supply_consumption = 0.10
+	
+		need = {
+			infantry_equipment = 100
+			uber_infantry_equipment = 100
+		}
+	}
+}

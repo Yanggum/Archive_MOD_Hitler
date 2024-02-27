@@ -1,0 +1,138 @@
+technologies = {
+
+	wunderwaffen_silbervogel_1 = {
+
+		enable_equipments = {
+			wunderwaffen_silbervogel_1
+		}
+	
+		path = {
+			leads_to_tech = wunderwaffen_he_323
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1940
+		folder = {
+			name = wunderwaffen_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		categories = {
+			heavy_air
+			air_equipment
+			cat_strategic_bomber
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 5
+				tag = GER
+			}
+        }
+	}
+	
+        wunderwaffen_he_323 = {
+
+		enable_equipments = {
+			wunderwaffen_he_323
+		}
+	
+		path = {
+			leads_to_tech = wunderwaffen_e_555
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1942
+		folder = {
+			name = wunderwaffen_folder
+			position = { x = 0 y = 4 }
+		}
+		
+		categories = {
+			heavy_air
+			air_equipment
+			cat_strategic_bomber
+		}
+		
+
+	}
+	
+        wunderwaffen_e_555 = {
+
+		enable_equipments = {
+			wunderwaffen_e_555
+		}
+	
+		path = {
+			leads_to_tech = wunderwaffen_ju287v2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1943
+		folder = {
+			name = wunderwaffen_folder
+			position = { x = 0 y = 6 }
+		}
+		
+		categories = {
+			heavy_air
+			air_equipment
+			cat_strategic_bomber
+		}
+		
+
+	}
+	
+        wunderwaffen_ju287v2 = {
+
+		enable_equipments = {
+			wunderwaffen_ju287v2
+		}
+	
+		path = {
+			leads_to_tech = wunderwaffen_ju_488
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1944
+		folder = {
+			name = wunderwaffen_folder
+			position = { x = 0 y = 8 }
+		}
+		
+		categories = {
+			heavy_air
+			air_equipment
+			cat_strategic_bomber
+		}
+		
+
+	}
+	
+        wunderwaffen_ju_488 = {
+
+		enable_equipments = {
+			wunderwaffen_ju_488
+		}
+
+		research_cost = 0.80
+		start_year = 1945
+		folder = {
+			name = wunderwaffen_folder
+			position = { x = 0 y = 10 }
+		}
+		
+		categories = {
+			heavy_air
+			air_equipment
+			cat_strategic_bomber
+		}
+
+	}
+}

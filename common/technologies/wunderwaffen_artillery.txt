@@ -1,0 +1,51 @@
+technologies = {
+
+	wunderwaffen_k12v = {
+
+		enable_equipments = {
+			wunderwaffen_k12v_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = wunderwaffen_k12n 
+			research_cost_coeff = 1
+		}
+		
+		start_year = 1938
+		
+		research_cost = 1
+		
+		folder = {
+			name = wunderwaffen_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		categories = {
+			cat_wunderwaffen_rail_artillery
+		}
+		
+
+	}
+	
+	wunderwaffen_k12n = {
+
+		enable_equipments = {
+			wunderwaffen_k12n_equipment_1
+		}
+		
+		research_cost = 1
+		
+		start_year = 1940
+		
+		folder = {
+			name = wunderwaffen_folder
+			position = { x = 0 y = 4 }
+		}
+		
+		categories = {
+			cat_wunderwaffen_rail_artillery
+		}
+		
+
+	}
+}

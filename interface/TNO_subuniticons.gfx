@@ -1,0 +1,48 @@
+spriteTypes = {	
+
+	##################################
+	### Large images for Groups ###
+
+	
+	##################################
+	### Large images for DIVISIONS ###
+
+
+	spriteType = { name = "GFX_unit_uber_infantry_icon_medium"	       					textureFile = "gfx/interface/counters/division_large/unit_uber_infantry_icon.dds" noOfFrames = 2 }
+
+	
+	####################################################
+	### Small images for DIVISIONS (On-map-counters) ###
+
+
+	spriteType = { name = "GFX_unit_uber_infantry_icon_medium_white"	       				textureFile = "gfx/interface/counters/division_small/onmap_unit_uber_infantry_icon.dds" noOfFrames = 2 }
+	
+	###########################################
+	### Large images for DIVISION TEMPLATES ###
+
+
+
+	
+
+	###########################################
+	### Small images for DIVISION TEMPLATES ###
+	
+
+
+
+	
+	#################################
+	### On-map-counters for SHIPS ###
+
+
+
+	############################################
+	### On-map-counters for SHIPS - Inverted ###
+
+
+
+	#############################################################################
+	### Large ships images used in NAVAL-COMBAT-VIEW and SELECTED-FLEETS-VIEW ###
+
+
+}

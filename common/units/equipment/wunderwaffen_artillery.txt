@@ -1,0 +1,73 @@
+equipments = {
+	
+	wunderwaffen_k12v_equipment = {
+		year = 1934
+		is_archetype = yes
+		picture = archetype_artillery_equipment		
+		type = {
+			artillery
+			infantry #adding infantry type
+			#motorized #Removing motorized type
+		}
+		group_by = archetype
+		priority = 50
+		interface_category = interface_category_land
+		
+		defense = 18
+		breakthrough = 8
+		soft_attack = 120
+		hard_attack = 5
+		ap_attack = 5
+		hardness = 0.5
+		armor_value = 50
+
+		fuel_consumption = 3.0
+		reliability = 0.7
+		build_cost_ic = 400
+		resources = {
+			tungsten = 3
+			steel = 5
+		}
+	}
+	wunderwaffen_k12v_equipment_1 = {
+		year = 1938
+
+		archetype = wunderwaffen_k12v_equipment
+		priority = 50
+		visual_level = 0
+	}
+	
+	wunderwaffen_k12n_equipment_1 = {
+		year = 1940
+		archetype = wunderwaffen_k12v_equipment
+		parent = wunderwaffen_k12v_equipment_1
+		picture = archetype_artillery_equipment	
+		type = {
+			artillery
+			infantry #adding infantry type
+			#motorized #Removing motorized type
+		}		
+		group_by = archetype
+		priority = 50
+		visual_level = 2
+		interface_category = interface_category_land
+		
+		defense = 20
+		hardness = 0.5
+		armor_value = 60
+		breakthrough = 10
+		soft_attack = 160
+		hard_attack = 6
+		ap_attack = 10
+		
+		reliability = 0.8
+		build_cost_ic = 450
+		fuel_consumption = 3.0
+		resources = {
+			tungsten = 4
+			steel = 6
+		}
+	}
+	
+
+}
