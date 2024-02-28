@@ -22,5 +22,6 @@ leader_traits = {
         stability_factor = 0.30
 		army_defence_factor = 0.25
 		army_attack_factor = 0.25
+		justify_war_goal_time = -0.80
 	}
 }
