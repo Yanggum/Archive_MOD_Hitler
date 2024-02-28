@@ -246,10 +246,6 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		completion_reward = {
-			load_focus_tree = {
-				tree = german_focus
-				keep_completed = yes
-			} 			
 			declare_war_on = {
 				target = GEM
 				type = annex_everything
