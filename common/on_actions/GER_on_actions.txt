@@ -1,0 +1,85 @@
+## GER 온액션 ## 
+
+on_actions = {
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					GER = {
+						has_full_control_of_state = 56
+					}
+				}
+				56 = {
+					set_demilitarized_zone = no
+					remove_dynamic_modifier = { modifier = GEH_ucantusefactory }
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						has_full_control_of_state = 59
+					}
+				}
+				59 = {
+					set_demilitarized_zone = no
+					remove_dynamic_modifier = { modifier = GEH_ucantusefactory }
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						has_full_control_of_state = 58
+					}
+				}
+				58 = {
+					set_demilitarized_zone = no
+					remove_dynamic_modifier = { modifier = GEH_ucantusefactory }
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						has_full_control_of_state = 57
+					}
+				}
+				57 = {
+					set_demilitarized_zone = no
+					remove_dynamic_modifier = { modifier = GEH_ucantusefactory }
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						has_full_control_of_state = 51
+					}
+				}
+				51 = {
+					set_demilitarized_zone = no
+					remove_dynamic_modifier = { modifier = GEH_ucantusefactory }
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						has_full_control_of_state = 944
+					}
+				}
+				944 = {
+					set_demilitarized_zone = no
+					remove_dynamic_modifier = { modifier = GEH_ucantusefactory }
+				}
+			}
+			if = {
+				limit = {
+					GER = {
+						has_full_control_of_state = 909
+					}
+				}
+				909 = {
+					set_demilitarized_zone = no
+					remove_dynamic_modifier = { modifier = GEH_ucantusefactory }
+				}
+			}
+		}
+	}
+}
