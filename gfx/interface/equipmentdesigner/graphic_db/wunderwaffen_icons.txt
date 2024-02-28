@@ -13,25 +13,7 @@ GER = {
 	wunderwaffen_armor_panzer_X_equipment = {
 		pool = {
 			icons = { 
-				GFX_GER_heavy_CAB
- 				GFX_GER_heavy_CAB_camo
- 				GFX_GER_heavy_CAC
- 				GFX_GER_heavy_CAC_camo
- 				GFX_GER_heavy_CBA
- 				GFX_GER_heavy_CBA_camo
- 				GFX_GER_heavy_CBB
- 				GFX_GER_heavy_CBB_camo
- 				GFX_GER_heavy_CBC
- 				GFX_GER_heavy_CBC_camo
- 				GFX_GER_heavy_CCA
- 				GFX_GER_heavy_CCA_camo
- 				GFX_GER_heavy_CCB
- 				GFX_GER_heavy_CCB_camo
- 				GFX_GER_heavy_fixed_CFA
- 				GFX_GER_heavy_fixed_CFB
- 				GFX_GER_heavy_fixed_CFC
- 				GFX_GER_heavy_AA_C
- 				GFX_GER_basic_heavy_tank_medium
+				"GFX_wunderwaffen_panzer_X_medium"
 			}
 			models = {
 				
@@ -43,25 +25,7 @@ GER = {
 	wunderwaffen_armor_panzer_IX_equipment = {
 		pool = {
 			icons = { 
-				GFX_GER_heavy_CAB
- 				GFX_GER_heavy_CAB_camo
- 				GFX_GER_heavy_CAC
- 				GFX_GER_heavy_CAC_camo
- 				GFX_GER_heavy_CBA
- 				GFX_GER_heavy_CBA_camo
- 				GFX_GER_heavy_CBB
- 				GFX_GER_heavy_CBB_camo
- 				GFX_GER_heavy_CBC
- 				GFX_GER_heavy_CBC_camo
- 				GFX_GER_heavy_CCA
- 				GFX_GER_heavy_CCA_camo
- 				GFX_GER_heavy_CCB
- 				GFX_GER_heavy_CCB_camo
- 				GFX_GER_heavy_fixed_CFA
- 				GFX_GER_heavy_fixed_CFB
- 				GFX_GER_heavy_fixed_CFC
- 				GFX_GER_heavy_AA_C
- 				GFX_GER_basic_heavy_tank_medium
+				"GFX_wunderwaffen_panzer_IX_medium"
 			}
 			models = {
 				
@@ -74,25 +38,7 @@ GER = {
 	wunderwaffen_armor_ratte_equipment = {
 		pool = {
 			icons = { 
-				GFX_GER_heavy_CAB
- 				GFX_GER_heavy_CAB_camo
- 				GFX_GER_heavy_CAC
- 				GFX_GER_heavy_CAC_camo
- 				GFX_GER_heavy_CBA
- 				GFX_GER_heavy_CBA_camo
- 				GFX_GER_heavy_CBB
- 				GFX_GER_heavy_CBB_camo
- 				GFX_GER_heavy_CBC
- 				GFX_GER_heavy_CBC_camo
- 				GFX_GER_heavy_CCA
- 				GFX_GER_heavy_CCA_camo
- 				GFX_GER_heavy_CCB
- 				GFX_GER_heavy_CCB_camo
- 				GFX_GER_heavy_fixed_CFA
- 				GFX_GER_heavy_fixed_CFB
- 				GFX_GER_heavy_fixed_CFC
- 				GFX_GER_heavy_AA_C
- 				GFX_GER_basic_heavy_tank_medium
+				"GFX_wunderwaffen_ratte_medium"
 			}
 			models = {
 				
@@ -105,25 +51,7 @@ GER = {
 	wunderwaffen_armor_monster_equipment = {
 		pool = {
 			icons = { 
-				GFX_GER_heavy_CAB
- 				GFX_GER_heavy_CAB_camo
- 				GFX_GER_heavy_CAC
- 				GFX_GER_heavy_CAC_camo
- 				GFX_GER_heavy_CBA
- 				GFX_GER_heavy_CBA_camo
- 				GFX_GER_heavy_CBB
- 				GFX_GER_heavy_CBB_camo
- 				GFX_GER_heavy_CBC
- 				GFX_GER_heavy_CBC_camo
- 				GFX_GER_heavy_CCA
- 				GFX_GER_heavy_CCA_camo
- 				GFX_GER_heavy_CCB
- 				GFX_GER_heavy_CCB_camo
- 				GFX_GER_heavy_fixed_CFA
- 				GFX_GER_heavy_fixed_CFB
- 				GFX_GER_heavy_fixed_CFC
- 				GFX_GER_heavy_AA_C
- 				GFX_GER_basic_heavy_tank_medium
+				"GFX_wunderwaffen_monster_medium"
 			}
 			models = {
 				
@@ -136,25 +64,7 @@ GER = {
 	wunderwaffen_armor_lowe_equipment = {
 		pool = {
 			icons = { 
-				GFX_GER_heavy_CAB
- 				GFX_GER_heavy_CAB_camo
- 				GFX_GER_heavy_CAC
- 				GFX_GER_heavy_CAC_camo
- 				GFX_GER_heavy_CBA
- 				GFX_GER_heavy_CBA_camo
- 				GFX_GER_heavy_CBB
- 				GFX_GER_heavy_CBB_camo
- 				GFX_GER_heavy_CBC
- 				GFX_GER_heavy_CBC_camo
- 				GFX_GER_heavy_CCA
- 				GFX_GER_heavy_CCA_camo
- 				GFX_GER_heavy_CCB
- 				GFX_GER_heavy_CCB_camo
- 				GFX_GER_heavy_fixed_CFA
- 				GFX_GER_heavy_fixed_CFB
- 				GFX_GER_heavy_fixed_CFC
- 				GFX_GER_heavy_AA_C
- 				GFX_GER_basic_heavy_tank_medium
+				"GFX_wunderwaffen_lowe_medium"
 			}
 			models = {
 				
