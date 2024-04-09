@@ -1,5 +1,7 @@
 version="0.01"
 replace_path="common/national_focus/GER.txt"
+replace_path="common/characters/GER.txt"
+replace_path="common/country_tags/GER_countries.txt"
 replace_path="history/countries/GER - Germany_2.txt"
 replace_path="history/countries/GEN - Germany Navy.txt"
 replace_path="history/countries/GER - Germany.txt"
@@ -38,8 +40,9 @@ tags={
 	"Map"
 }
 name="Blue Archive -Hitler's Counterattack-"
-supported_version="1.13.7"
 dependencies={
 	"Korean Language"
 	"Blue Archive MOD"
 }
+supported_version="1.13.7"
+remote_file_id="3169747439"

@@ -6,7 +6,7 @@
 ### search_filters = {FOCUS_FILTER_MANPOWER}
 ### search_filters = {FOCUS_FILTER_ANNEXATION}
 focus_tree = {
-	id = GER_focus
+	id = german_focus
 	country = {
 		factor = 0
 		modifier = {
@@ -191,7 +191,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_timed_idea = {
-				idea = GER_well_planned
+				idea = GEN_well_planned
 				days = 450
 			}
 		}
@@ -338,7 +338,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = GER_air_innovation_2
+		id = GER_air_innovation_2_mk2
 		icon = GFX_goal_generic_build_airforce
 		prerequisite = {
 			focus = GER_GER_government
@@ -495,7 +495,7 @@ focus_tree = {
 			focus = GER_fight_1
 		}
 		prerequisite = {
-			focus = GER_air_innovation_2
+			focus = GER_air_innovation_2_mk2
 		}
 		x = 0
 		y = 2
@@ -689,7 +689,7 @@ focus_tree = {
 		id = GER_fight_7
 		icon = GFX_focus_ITA_generic_fascist_workers
 		prerequisite = {
-			focus = GER_air_innovation_2
+			focus = GER_air_innovation_2_mk2
 		}
 		x = 3
 		y = 2

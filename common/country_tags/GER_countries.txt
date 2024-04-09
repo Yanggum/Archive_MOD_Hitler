@@ -1,2 +1,0 @@
-GEN = "countries/Germany.txt"
-GEA = "countries/Germany.txt"

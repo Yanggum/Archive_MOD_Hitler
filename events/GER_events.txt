@@ -194,7 +194,7 @@ country_event = { #독일 망명군의 지원 요청
 		}
 		set_country_flag = GER_volunteers_flag
 		add_timed_idea = {
-			idea = GER_send_volunteers_idea
+			idea = GEN_send_volunteers_idea
 			days = 730
 		}
 		FROM = {

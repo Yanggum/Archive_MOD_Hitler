@@ -1,0 +1,20 @@
+GER_german_nationalism = { #독일 민족주의
+	enable = { always = yes }
+
+	icon = GFX_idea_GER_generic_1
+	
+	remove_trigger = { 
+	}
+	
+	experience_gain_army_factor = GER_german_nationalism_experience_gain_army_factor
+	mobilization_speed = GER_german_nationalism_mobilization_speed
+	land_reinforce_rate = GER_german_nationalism_land_reinforce_rate
+	army_spirit_category_type_cost_factor = GER_german_nationalism_army_spirit_category_type_cost_factor
+	army_org_factor = GER_german_nationalism_army_org_factor
+	army_attack_speed_factor = GER_german_nationalism_army_attack_speed_factor
+	army_core_attack_factor = GER_german_nationalism_army_core_attack_factor
+	army_core_defence_factor = GER_german_nationalism_army_core_defence_factor
+	army_defence_factor = GER_german_nationalism_army_defence_factor
+	army_attack_factor = GER_german_nationalism_army_attack_factor
+	army_org_regain = GER_german_nationalism_army_org_regain
+}

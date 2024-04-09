@@ -51,12 +51,12 @@ set_variable = { GER_german_nationalism_army_defence_factor = -0.10 }
 set_variable = { GER_german_nationalism_army_attack_factor = -0.10 }
 set_variable = { GER_german_nationalism_army_org_regain = 0.00 }
 
+
 add_dynamic_modifier = {
 	modifier = GER_german_nationalism
 }
 
 recruit_character = GER_adolf_hitler #지도자
-
 
 #
 recruit_character = GER_fritz_todt
@@ -112,8 +112,6 @@ recruit_character = GER_ludwig_beck
 recruit_character = GER_maximilian_von_weichs
 recruit_character = GER_sepp_dietrich
 recruit_character = GER_walther_von_brauchitsch
-recruit_character = GER_wilhelm_canaris
-recruit_character = GER_hans_oster
 recruit_character = GER_wilhelm_ritter_von_leeb
 recruit_character = GER_wilhelm_list
 recruit_character = GER_werner_von_fritsch
@@ -126,10 +124,7 @@ recruit_character = GER_felix_steiner
 recruit_character = GER_ferdinand_schorner
 recruit_character = GER_georghans_reinhardt
 recruit_character = GER_paul_hausser
-recruit_character = GER_konstantin_von_neurath
 recruit_character = GER_walter_kruger
-
-recruit_character = GER_carl_friedrich_goerdeler
 
 #해군
 recruit_character = GER_erich_raeder
