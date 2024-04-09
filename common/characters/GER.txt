@@ -135,7 +135,7 @@ characters={
 				original_tag = GER
 			}
 			available = {
-				has_completed_focus = GER_GER_government
+				has_completed_focus = GER_revised_government
 			}
 			traits = {
 				army_regrouping_2
@@ -212,7 +212,7 @@ characters={
 				original_tag = GER
 			}
 			available = {
-				has_completed_focus = GER_GER_government
+				has_completed_focus = GER_revised_government
 			}
 			traits = {
 				army_armored_3
@@ -252,7 +252,7 @@ characters={
 				original_tag = GER
 			}
 			available = {
-				has_completed_focus = GER_GER_government
+				has_completed_focus = GER_revised_government
 			}
 			traits = {
 				mobile_warfare_expert
@@ -288,7 +288,7 @@ characters={
 				original_tag = GER
 			}
 			available = {
-				has_completed_focus = GER_GER_government
+				has_completed_focus = GER_revised_government
 			}
 			traits = {
 				blitzkrieg_theorist
@@ -475,7 +475,7 @@ characters={
 				original_tag = GER
 			}
 			available = {
-				has_completed_focus = GER_air_innovation_2_mk2
+				has_completed_focus = GER_revised_air_innovation_2_mk2
 			}
 			traits = {
 				air_airborne_2
@@ -685,7 +685,7 @@ characters={
 				original_tag = GER
 			}
 			available = {
-				has_completed_focus = GER_air_innovation_2_mk2
+				has_completed_focus = GER_revised_air_innovation_2_mk2
 			}
 			traits = {
 				air_chief_reform_2
@@ -1062,7 +1062,7 @@ characters={
 				original_tag = GER
 			}
 			available = {
-				has_completed_focus = GER_air_innovation_2_mk2
+				has_completed_focus = GER_revised_air_innovation_2_mk2
 			}
 			traits = {
 				close_air_support_proponent
@@ -1086,7 +1086,7 @@ characters={
 				original_tag = GER
 			}
 			available = {
-				has_completed_focus = GER_air_innovation_2_mk2
+				has_completed_focus = GER_revised_air_innovation_2_mk2
 			}
 			traits = { air_warfare_theorist }
 		}
@@ -1108,7 +1108,7 @@ characters={
 				original_tag = GER
 			}
 			available = {
-				has_completed_focus = GER_air_innovation_2_mk2
+				has_completed_focus = GER_revised_air_innovation_2_mk2
 			}
 			traits = {
 				dive_bomber
@@ -1151,7 +1151,7 @@ characters={
 				original_tag = GER
 			}
 			available = {
-				has_completed_focus = GER_GER_government
+				has_completed_focus = GER_revised_government
 			}
 			traits = {
 				army_chief_organizational_2
@@ -1177,7 +1177,7 @@ characters={
 				original_tag = GER
 			}
 			available = {
-				has_completed_focus = GER_GER_government
+				has_completed_focus = GER_revised_government
 			}
 			traits = {
 				army_chief_drill_2
@@ -1203,7 +1203,7 @@ characters={
 				original_tag = GER
 			}
 			available = {
-				has_completed_focus = GER_GER_government
+				has_completed_focus = GER_revised_government
 			}
 			traits = {
 				army_chief_offensive_2
@@ -1229,7 +1229,7 @@ characters={
 				original_tag = GER
 			}
 			available = {
-				has_completed_focus = GER_GER_government
+				has_completed_focus = GER_revised_government
 			}
 			traits = {
 				army_chief_maneuver_2
@@ -1293,7 +1293,7 @@ characters={
 				original_tag = GER
 			}
 			available = {
-				has_completed_focus = GER_air_innovation_2_mk2
+				has_completed_focus = GER_revised_air_innovation_2_mk2
 			}
 			traits = {
 				air_chief_all_weather_2
@@ -1331,7 +1331,7 @@ characters={
 				original_tag = GER
 			}
 			available = {
-				has_completed_focus = GER_GER_government
+				has_completed_focus = GER_revised_government
 			}
 			traits = {
 				army_infantry_2
@@ -1358,7 +1358,7 @@ characters={
 				original_tag = GER
 			}
 			available = {
-				has_completed_focus = GER_GER_government
+				has_completed_focus = GER_revised_government
 			}
 			traits = {
 				army_logistics_2
@@ -1385,7 +1385,7 @@ characters={
 				original_tag = GER
 			}
 			available = {
-				has_completed_focus = GER_air_innovation_2_mk2
+				has_completed_focus = GER_revised_air_innovation_2_mk2
 			}
 			traits = {
 				air_close_air_support_2
@@ -1412,7 +1412,7 @@ characters={
 				original_tag = GER
 			}
 			available = {
-				has_completed_focus = GER_air_innovation_2_mk2
+				has_completed_focus = GER_revised_air_innovation_2_mk2
 			}
 			traits = {
 				air_bomber_interception_2
@@ -1565,9 +1565,9 @@ characters={
 				original_tag = GER
 			}
 			available = {
-				has_completed_focus = GER_four_year_plan_2 
+				has_completed_focus = GER_revised_four_year_plan_2 
 				not = {
-					has_completed_focus = GER_demand_sudetenland 
+					has_completed_focus = GER_revised_demand_sudetenland 
 				}
 			}
 			traits = {

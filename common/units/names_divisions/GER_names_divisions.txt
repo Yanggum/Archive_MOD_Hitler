@@ -548,7 +548,7 @@ GER_MOT_02 =
 	can_use = { 
 		OR = {
 			has_government = fascism
-			has_completed_focus = GER_fight_7
+			has_completed_focus = GER_revised_fight_7
 		}
 	}
 
@@ -955,7 +955,7 @@ GER_SS_01 =
 	can_use = { 
 		OR = {
 			has_government = fascism
-			has_completed_focus = GER_fight_7
+			has_completed_focus = GER_revised_fight_7
 		}
 	}
 
